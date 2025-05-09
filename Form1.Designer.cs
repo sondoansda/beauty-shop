@@ -210,7 +210,7 @@ namespace beauty_shop
             // btnHome
             // 
             this.btnHome.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnHome.Image = global::beauty_shop.Properties.Resources.logo_background_changed1;
+            this.btnHome.Image = global::beauty_shop.Properties.Resources.logo_background_changed;
             this.btnHome.Location = new System.Drawing.Point(0, 0);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(220, 140);

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
+﻿using System.Runtime.InteropServices;
 using beauty_shop.Forms;
 using FontAwesome.Sharp;
 namespace beauty_shop
@@ -25,8 +22,6 @@ namespace beauty_shop
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             this.FormBorderStyle = FormBorderStyle.None;
             this.Padding = new Padding(1);
-
-
 
         }
         private struct RGBColors
@@ -124,13 +119,9 @@ namespace beauty_shop
             OpenChildForm(new FormSetting());
         }
 
-        //private void btnHome_Click(object sender, System.EventArgs e)
-        //{
-        //    Reset(sender, e);
-        //}
         private void btnHome_Click(object sender, EventArgs e)
         {
-            // Không gọi ActivateButton vì sender là PictureBox
+
             Reset();
             OpenChildForm(new FormOverview());
         }
@@ -154,14 +145,7 @@ namespace beauty_shop
 
 
         }
-        //private void Reset(object sender, System.EventArgs e)
-        //{
-        //    ActivateButton(sender, RGBColors.color1);
-        //    leftBorderBtn.Visible = false;
-        //    iconPictureBox1.IconChar = IconChar.Home;
-        //    iconPictureBox1.IconColor = Color.MediumPurple;
-        //    txtCurrentChildForm.Text = "Home";
-        //}
+
 
         private void Reset()
         {
