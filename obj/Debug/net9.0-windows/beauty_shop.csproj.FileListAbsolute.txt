@@ -59,9 +59,6 @@ C:\Users\Dell\Desktop\beauty-shop\bin\Debug\net9.0-windows\Microsoft.Extensions.
 C:\Users\Dell\Desktop\beauty-shop\bin\Debug\net9.0-windows\MySqlConnector.dll
 C:\Users\Dell\Desktop\beauty-shop\bin\Debug\net9.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.csproj.AssemblyReference.cache
-C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Form1.resources
-C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.FormMarketing.resources
-C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.FormOrders.resources
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Properties.Resources.resources
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.csproj.GenerateResource.cache
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.GeneratedMSBuildEditorConfig.editorconfig
@@ -84,3 +81,6 @@ C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.Dan
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.HoaDon.resources
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.NhaCungCap.resources
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.QuanLySP.resources
+C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Main.resources
+C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.NhanSu_KhachHang.resources
+C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.TrangChu.resources

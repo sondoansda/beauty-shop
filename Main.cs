@@ -3,13 +3,13 @@ using beauty_shop.Forms;
 using FontAwesome.Sharp;
 namespace beauty_shop
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentChildForm;
 
-        public Form1()
+        public Main()
         {
             InitializeComponent();
             leftBorderBtn = new Panel();
@@ -54,9 +54,9 @@ namespace beauty_shop
                     leftBorderBtn.Visible = true;
                     leftBorderBtn.BringToFront();
 
-                    iconPictureBox1.IconChar = currentBtn.IconChar;
-                    iconPictureBox1.IconColor = color;
-                    txtCurrentChildForm.Text = currentBtn.Text;
+                    iPBTrangChu.IconChar = currentBtn.IconChar;
+                    iPBTrangChu.IconColor = color;
+                    txtTieuDeTrang.Text = currentBtn.Text;
                 }
             }
         }
@@ -76,7 +76,7 @@ namespace beauty_shop
 
         }
 
-        private void btnDashboard_Click(object sender, System.EventArgs e)
+        private void btnDMHT_Click(object sender, System.EventArgs e)
         {
 
             ActivateButton(sender, RGBColors.color1);
@@ -84,46 +84,47 @@ namespace beauty_shop
 
         }
 
-        private void btnOrders_Click(object sender, System.EventArgs e)
-        {
-
-            ActivateButton(sender, RGBColors.color2);
-            OpenChildForm(new FormOrders());
-        }
-
-        private void btnProducts_Click(object sender, System.EventArgs e)
+        private void btnHD_Click(object sender, System.EventArgs e)
         {
 
             ActivateButton(sender, RGBColors.color3);
             OpenChildForm(new HoaDon());
         }
 
-        private void btnCustomers_Click(object sender, System.EventArgs e)
+
+
+        private void btnNhanSu_KH_Click(object sender, System.EventArgs e)
+        {
+
+            ActivateButton(sender, RGBColors.color3);
+            OpenChildForm(new NhanSu_KhachHang());
+        }
+
+        private void btnNCC_Click(object sender, System.EventArgs e)
         {
 
             ActivateButton(sender, RGBColors.color4);
-            OpenChildForm(new QuanLySP());
-        }
-
-        private void btnMarketing_Click(object sender, System.EventArgs e)
-        {
-
-            ActivateButton(sender, RGBColors.color5);
-            OpenChildForm(new FormMarketing());
-        }
-
-        private void btnSetting_Click(object sender, System.EventArgs e)
-        {
-
-            ActivateButton(sender, RGBColors.color6);
             OpenChildForm(new NhaCungCap());
         }
 
-        private void btnHome_Click(object sender, EventArgs e)
+        private void btnBaoCaoThongKe_Click(object sender, EventArgs e)
         {
 
-            Reset();
+            ActivateButton(sender, RGBColors.color6);
             OpenChildForm(new BaoCaoThongKe());
+        }
+        private void btnSP_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color2);
+            OpenChildForm(new QuanLySP());
+        }
+        private void iPBTrangChu_Click(object sender, EventArgs e)
+        {
+            Reset();
+
+            OpenChildForm(new TrangChu());
+
+
         }
 
         private void OpenChildForm(Form childForm)
@@ -151,9 +152,9 @@ namespace beauty_shop
         {
             DisableButton();
             leftBorderBtn.Visible = false;
-            iconPictureBox1.IconChar = IconChar.Home;
-            iconPictureBox1.IconColor = Color.MediumPurple;
-            txtCurrentChildForm.Text = "Home";
+            iPBTrangChu.IconChar = IconChar.Home;
+            iPBTrangChu.IconColor = Color.MediumPurple;
+            txtTieuDeTrang.Text = "Trang chủ";
         }
         // drag form
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -244,6 +245,7 @@ namespace beauty_shop
 
             base.WndProc(ref m);
         }
+
 
     }
 }

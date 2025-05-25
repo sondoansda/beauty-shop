@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            dataGridView1 = new DataGridView();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -38,31 +36,18 @@
             label1.AutoSize = true;
             label1.Location = new Point(280, 209);
             label1.Name = "label1";
-            label1.Size = new Size(61, 20);
+            label1.Size = new Size(64, 20);
             label1.TabIndex = 0;
-            label1.Text = "product";
+            label1.Text = "hóa đơn";
             // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(234, 90);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(300, 188);
-            dataGridView1.TabIndex = 1;
-         
-            // 
-            // FormProducts
+            // HoaDon
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 562);
-            Controls.Add(dataGridView1);
             Controls.Add(label1);
             Margin = new Padding(3, 4, 3, 4);
-            Name = "FormProducts";
-            Text = "FormProducts";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Name = "HoaDon";
             ResumeLayout(false);
             PerformLayout();
 
@@ -71,6 +56,5 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private DataGridView dataGridView1;
     }
 }
