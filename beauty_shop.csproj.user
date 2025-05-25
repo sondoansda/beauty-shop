@@ -4,25 +4,25 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FormCustomers.cs">
+    <Compile Update="Forms\QuanLySP.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FormDashboard.cs">
+    <Compile Update="Forms\DanhMucHeThong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FormMarketing.cs">
+    <Compile Update="Forms\NhanSu-KhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\FormOrders.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FormOverview.cs">
+    <Compile Update="Forms\BaoCaoThongKe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FormProducts.cs">
+    <Compile Update="Forms\HoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FormSetting.cs">
+    <Compile Update="Forms\NhaCungCap.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

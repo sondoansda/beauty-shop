@@ -80,7 +80,7 @@ namespace beauty_shop
         {
 
             ActivateButton(sender, RGBColors.color1);
-            OpenChildForm(new FormDashboard());
+            OpenChildForm(new DanhMucHeThong());
 
         }
 
@@ -95,14 +95,14 @@ namespace beauty_shop
         {
 
             ActivateButton(sender, RGBColors.color3);
-            OpenChildForm(new FormProducts());
+            OpenChildForm(new HoaDon());
         }
 
         private void btnCustomers_Click(object sender, System.EventArgs e)
         {
 
             ActivateButton(sender, RGBColors.color4);
-            OpenChildForm(new FormCustomers());
+            OpenChildForm(new QuanLySP());
         }
 
         private void btnMarketing_Click(object sender, System.EventArgs e)
@@ -116,14 +116,14 @@ namespace beauty_shop
         {
 
             ActivateButton(sender, RGBColors.color6);
-            OpenChildForm(new FormSetting());
+            OpenChildForm(new NhaCungCap());
         }
 
         private void btnHome_Click(object sender, EventArgs e)
         {
 
             Reset();
-            OpenChildForm(new FormOverview());
+            OpenChildForm(new BaoCaoThongKe());
         }
 
         private void OpenChildForm(Form childForm)

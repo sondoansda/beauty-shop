@@ -60,12 +60,8 @@ C:\Users\Dell\Desktop\beauty-shop\bin\Debug\net9.0-windows\MySqlConnector.dll
 C:\Users\Dell\Desktop\beauty-shop\bin\Debug\net9.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.csproj.AssemblyReference.cache
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Form1.resources
-C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.FormDashboard.resources
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.FormMarketing.resources
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.FormOrders.resources
-C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.FormOverview.resources
-C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.FormProducts.resources
-C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.FormSetting.resources
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Properties.Resources.resources
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.csproj.GenerateResource.cache
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.GeneratedMSBuildEditorConfig.editorconfig
@@ -79,3 +75,12 @@ C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\refint\beauty_shop.dl
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.pdb
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.genruntimeconfig.cache
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\ref\beauty_shop.dll
+C:\Users\Dell\Desktop\beauty-shop\bin\Debug\net9.0-windows\Humanizer.dll
+C:\Users\Dell\Desktop\beauty-shop\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Dell\Desktop\beauty-shop\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Dell\Desktop\beauty-shop\bin\Debug\net9.0-windows\Mono.TextTemplating.dll
+C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.BaoCaoThongKe.resources
+C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.DanhMucHeThong.resources
+C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.HoaDon.resources
+C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.NhaCungCap.resources
+C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.QuanLySP.resources
