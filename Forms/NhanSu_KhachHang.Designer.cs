@@ -1,6 +1,6 @@
 ﻿namespace beauty_shop.Forms
 {
-    partial class FormOrders
+    partial class NhanSu_KhachHang
     {
         /// <summary>
         /// Required designer variable.
@@ -28,27 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            label1 = new Label();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(236, 122);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "order";
+            label1.AutoSize = true;
+            label1.Location = new Point(235, 164);
+            label1.Name = "label1";
+            label1.Size = new Size(154, 20);
+            label1.TabIndex = 0;
+            label1.Text = "Nhân sự - Khách hàng";
+            label1.Click += label1_Click;
             // 
-            // FormOrders
+            // NhanSu_KhachHang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Name = "FormOrders";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 562);
+            Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "NhanSu_KhachHang";
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace beauty_shop.Forms
 {
-    public partial class FormOrders : Form
+    public partial class TrangChu : Form
     {
-        public FormOrders()
+        public TrangChu()
         {
             InitializeComponent();
         }

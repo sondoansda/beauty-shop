@@ -2,7 +2,7 @@
 
 namespace beauty_shop
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -38,21 +38,21 @@ namespace beauty_shop
             btnSP = new IconButton();
             btnDMHT = new IconButton();
             panel1 = new Panel();
-            btnHome = new PictureBox();
+            btnTrangChu = new PictureBox();
             panel2 = new Panel();
             btnMaximum = new IconButton();
             btnMini = new IconButton();
             btnExit = new IconButton();
-            txtCurrentChildForm = new Label();
-            iconPictureBox1 = new IconPictureBox();
+            txtTieuDeTrang = new Label();
+            iPBTrangChu = new IconPictureBox();
             panelShadow = new Panel();
             panel3 = new Panel();
             panelDesktop = new Panel();
             panelMenu.SuspendLayout();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)btnHome).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btnTrangChu).BeginInit();
             panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)iconPictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)iPBTrangChu).BeginInit();
             panelShadow.SuspendLayout();
             SuspendLayout();
             // 
@@ -93,7 +93,7 @@ namespace beauty_shop
             btnBCTK.TextAlign = ContentAlignment.MiddleLeft;
             btnBCTK.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnBCTK.UseVisualStyleBackColor = true;
-            btnBCTK.Click += btnSetting_Click;
+            btnBCTK.Click += btnBaoCaoThongKe_Click;
             // 
             // btnHD
             // 
@@ -114,7 +114,7 @@ namespace beauty_shop
             btnHD.Text = "Hóa đơn";
             btnHD.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnHD.UseVisualStyleBackColor = true;
-            btnHD.Click += btnMarketing_Click;
+            btnHD.Click += btnHD_Click;
             // 
             // btnNCC
             // 
@@ -136,7 +136,7 @@ namespace beauty_shop
             btnNCC.TextAlign = ContentAlignment.MiddleLeft;
             btnNCC.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnNCC.UseVisualStyleBackColor = true;
-            btnNCC.Click += btnCustomers_Click;
+            btnNCC.Click += btnNCC_Click;
             // 
             // btnUsers
             // 
@@ -158,7 +158,7 @@ namespace beauty_shop
             btnUsers.TextAlign = ContentAlignment.MiddleLeft;
             btnUsers.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnUsers.UseVisualStyleBackColor = true;
-            btnUsers.Click += btnProducts_Click;
+            btnUsers.Click += btnNhanSu_KH_Click;
             // 
             // btnSP
             // 
@@ -180,7 +180,7 @@ namespace beauty_shop
             btnSP.TextAlign = ContentAlignment.MiddleLeft;
             btnSP.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnSP.UseVisualStyleBackColor = true;
-            btnSP.Click += btnOrders_Click;
+            btnSP.Click += btnSP_Click;
             // 
             // btnDMHT
             // 
@@ -202,11 +202,11 @@ namespace beauty_shop
             btnDMHT.TextAlign = ContentAlignment.MiddleLeft;
             btnDMHT.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnDMHT.UseVisualStyleBackColor = true;
-            btnDMHT.Click += btnDashboard_Click;
+            btnDMHT.Click += btnDMHT_Click;
             // 
             // panel1
             // 
-            panel1.Controls.Add(btnHome);
+            panel1.Controls.Add(btnTrangChu);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(3, 4, 3, 4);
@@ -214,18 +214,17 @@ namespace beauty_shop
             panel1.Size = new Size(251, 175);
             panel1.TabIndex = 1;
             // 
-            // btnHome
+            // btnTrangChu
             // 
-            btnHome.Dock = DockStyle.Fill;
-            btnHome.Image = Properties.Resources.logo_background_changed;
-            btnHome.Location = new Point(0, 0);
-            btnHome.Margin = new Padding(3, 4, 3, 4);
-            btnHome.Name = "btnHome";
-            btnHome.Size = new Size(251, 175);
-            btnHome.SizeMode = PictureBoxSizeMode.Zoom;
-            btnHome.TabIndex = 0;
-            btnHome.TabStop = false;
-            btnHome.Click += btnHome_Click;
+            btnTrangChu.Dock = DockStyle.Fill;
+            btnTrangChu.Image = Properties.Resources.logo_background_changed;
+            btnTrangChu.Location = new Point(0, 0);
+            btnTrangChu.Margin = new Padding(3, 4, 3, 4);
+            btnTrangChu.Name = "btnTrangChu";
+            btnTrangChu.Size = new Size(251, 175);
+            btnTrangChu.SizeMode = PictureBoxSizeMode.Zoom;
+            btnTrangChu.TabIndex = 0;
+            btnTrangChu.TabStop = false;
             // 
             // panel2
             // 
@@ -233,8 +232,8 @@ namespace beauty_shop
             panel2.Controls.Add(btnMaximum);
             panel2.Controls.Add(btnMini);
             panel2.Controls.Add(btnExit);
-            panel2.Controls.Add(txtCurrentChildForm);
-            panel2.Controls.Add(iconPictureBox1);
+            panel2.Controls.Add(txtTieuDeTrang);
+            panel2.Controls.Add(iPBTrangChu);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(251, 0);
             panel2.Margin = new Padding(3, 4, 3, 4);
@@ -306,30 +305,31 @@ namespace beauty_shop
             btnExit.UseVisualStyleBackColor = true;
             btnExit.Click += btnExit_Click;
             // 
-            // txtCurrentChildForm
+            // txtTieuDeTrang
             // 
-            txtCurrentChildForm.AutoSize = true;
-            txtCurrentChildForm.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtCurrentChildForm.ForeColor = Color.Gainsboro;
-            txtCurrentChildForm.Location = new Point(75, 49);
-            txtCurrentChildForm.Name = "txtCurrentChildForm";
-            txtCurrentChildForm.Size = new Size(54, 20);
-            txtCurrentChildForm.TabIndex = 1;
-            txtCurrentChildForm.Text = "Home";
+            txtTieuDeTrang.AutoSize = true;
+            txtTieuDeTrang.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtTieuDeTrang.ForeColor = Color.Gainsboro;
+            txtTieuDeTrang.Location = new Point(75, 49);
+            txtTieuDeTrang.Name = "txtTieuDeTrang";
+            txtTieuDeTrang.Size = new Size(54, 20);
+            txtTieuDeTrang.TabIndex = 1;
+            txtTieuDeTrang.Text = "Home";
             // 
-            // iconPictureBox1
+            // iPBTrangChu
             // 
-            iconPictureBox1.BackColor = Color.FromArgb(26, 25, 62);
-            iconPictureBox1.ForeColor = Color.MediumPurple;
-            iconPictureBox1.IconChar = IconChar.House;
-            iconPictureBox1.IconColor = Color.MediumPurple;
-            iconPictureBox1.IconFont = IconFont.Auto;
-            iconPictureBox1.Location = new Point(37, 34);
-            iconPictureBox1.Margin = new Padding(3, 4, 3, 4);
-            iconPictureBox1.Name = "iconPictureBox1";
-            iconPictureBox1.Size = new Size(32, 40);
-            iconPictureBox1.TabIndex = 0;
-            iconPictureBox1.TabStop = false;
+            iPBTrangChu.BackColor = Color.FromArgb(26, 25, 62);
+            iPBTrangChu.ForeColor = Color.MediumPurple;
+            iPBTrangChu.IconChar = IconChar.House;
+            iPBTrangChu.IconColor = Color.MediumPurple;
+            iPBTrangChu.IconFont = IconFont.Auto;
+            iPBTrangChu.Location = new Point(37, 34);
+            iPBTrangChu.Margin = new Padding(3, 4, 3, 4);
+            iPBTrangChu.Name = "iPBTrangChu";
+            iPBTrangChu.Size = new Size(32, 40);
+            iPBTrangChu.TabIndex = 0;
+            iPBTrangChu.TabStop = false;
+            iPBTrangChu.Click += iPBTrangChu_Click;
             // 
             // panelShadow
             // 
@@ -360,7 +360,7 @@ namespace beauty_shop
             panelDesktop.Size = new Size(922, 594);
             panelDesktop.TabIndex = 3;
             // 
-            // Form1
+            // Main
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -370,16 +370,16 @@ namespace beauty_shop
             Controls.Add(panel2);
             Controls.Add(panelMenu);
             Margin = new Padding(3, 4, 3, 4);
-            Name = "Form1";
+            Name = "Main";
             Text = "BeautyShop";
             TopMost = true;
             Load += Form1_Load;
             panelMenu.ResumeLayout(false);
             panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)btnHome).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btnTrangChu).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)iconPictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)iPBTrangChu).EndInit();
             panelShadow.ResumeLayout(false);
             ResumeLayout(false);
 
@@ -395,11 +395,11 @@ namespace beauty_shop
         private FontAwesome.Sharp.IconButton btnNCC;
         private FontAwesome.Sharp.IconButton btnUsers;
         private FontAwesome.Sharp.IconButton btnSP;
-        private System.Windows.Forms.PictureBox btnHome;
+        private System.Windows.Forms.PictureBox btnTrangChu;
         private System.Windows.Forms.Panel panel2;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
+        private FontAwesome.Sharp.IconPictureBox iPBTrangChu;
         private System.Windows.Forms.Panel panelShadow;
-        private System.Windows.Forms.Label txtCurrentChildForm;
+        private System.Windows.Forms.Label txtTieuDeTrang;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panelDesktop;
         private FontAwesome.Sharp.IconButton btnExit;
