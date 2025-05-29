@@ -1,9 +1,12 @@
-﻿namespace beauty_shop.Model
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace beauty_shop.Model
 {
+    [Table("tblchitiethdb")]
     public class ChiTietHDB
     {
 
-        public string SoHDB { get; set; }
+        public string? SoHDB { get; set; }
         public string MaHang { get; set; }
         public int SoLuong { get; set; }
         public decimal Giaban { get; set; }

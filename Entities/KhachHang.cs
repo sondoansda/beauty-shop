@@ -1,5 +1,8 @@
-﻿namespace beauty_shop.Model
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace beauty_shop.Model
 {
+    [Table("tblkhachhang")]
     public class KhachHang
     {
         public string MaKhach { get; set; }
