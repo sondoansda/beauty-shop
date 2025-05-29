@@ -3,23 +3,23 @@ namespace beauty_shop.Model
 {
     public class BeautyShopContext : DbContext
     {
-        public DbSet<Loai> Loais { get; set; }
-        public DbSet<KhoiLuong> KhoiLuongs { get; set; }
-        public DbSet<HangSX> HangSXes { get; set; }
-        public DbSet<ChatLieu> ChatLieus { get; set; }
-        public DbSet<NuocSX> NuocSXes { get; set; }
-        public DbSet<MauSac> MauSacs { get; set; }
-        public DbSet<CongDung> CongDungs { get; set; }
-        public DbSet<Mua> Muas { get; set; }
-        public DbSet<DMHangHoa> DMHangHoas { get; set; }
-        public DbSet<CongViec> CongViecs { get; set; }
-        public DbSet<NhanVien> NhanViens { get; set; }
-        public DbSet<KhachHang> KhachHangs { get; set; }
-        public DbSet<NhaCungCap> NhaCungCaps { get; set; }
-        public DbSet<HoaDonBan> HoaDonBans { get; set; }
-        public DbSet<ChiTietHDB> ChiTietHDBs { get; set; }
-        public DbSet<HoaDonNhap> HoaDonNhaps { get; set; }
-        public DbSet<ChiTietHDN> ChiTietHDNs { get; set; }
+        public DbSet<Loai> Loai { get; set; }
+        public DbSet<KhoiLuong> KhoiLuong { get; set; }
+        public DbSet<HangSX> HangSX { get; set; }
+        public DbSet<ChatLieu> ChatLieu { get; set; }
+        public DbSet<NuocSX> NuocSX { get; set; }
+        public DbSet<MauSac> MauSac { get; set; }
+        public DbSet<CongDung> CongDung { get; set; }
+        public DbSet<Mua> Mua { get; set; }
+        public DbSet<DMHangHoa> DMHangHoa { get; set; }
+        public DbSet<CongViec> CongViec { get; set; }
+        public DbSet<NhanVien> NhanVien { get; set; }
+        public DbSet<KhachHang> KhachHang { get; set; }
+        public DbSet<NhaCungCap> NhaCungCap { get; set; }
+        public DbSet<HoaDonBan> HoaDonBan { get; set; }
+        public DbSet<ChiTietHDB> ChiTietHDB { get; set; }
+        public DbSet<HoaDonNhap> HoaDonNhap { get; set; }
+        public DbSet<ChiTietHDN> ChiTietHDN { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -91,7 +91,7 @@ namespace beauty_shop.Model
             modelBuilder.Entity<DMHangHoa>()
                 .HasOne(c => c.CongDung)
                 .WithMany()
-                .HasForeignKey(d => d.MaCongDung)
+                .HasForeignKey(d => d.CongDung)
                 .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<DMHangHoa>()
