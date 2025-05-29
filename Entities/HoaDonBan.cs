@@ -1,5 +1,8 @@
-﻿namespace beauty_shop.Model
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace beauty_shop.Model
 {
+    [Table("tblhoadonban")]
     public class HoaDonBan
 
     {

@@ -29,32 +29,17 @@
         private void InitializeComponent()
         {
             label2 = new Label();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(294, 260);
-            label2.Name = "label2";
-            label2.Size = new Size(139, 20);
-            label2.TabIndex = 1;
-            label2.Text = "Danh mục hệ thống";
-            label2.Click += label2_Click;
-            // 
-            // DanhMucHeThong
-            // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 562);
-            Controls.Add(label2);
-            Margin = new Padding(3, 4, 3, 4);
-            Name = "DanhMucHeThong";
-            ResumeLayout(false);
-            PerformLayout();
+       
+
+          
 
         }
 
         #endregion
         private System.Windows.Forms.Label label2;
+        private DataGridView dataGridView1;
     }
 }

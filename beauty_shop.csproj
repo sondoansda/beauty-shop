@@ -32,8 +32,4 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="BLL\" />
-  </ItemGroup>
-
 </Project>

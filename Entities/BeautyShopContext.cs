@@ -1,9 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+
 namespace beauty_shop.Model
 {
     public class BeautyShopContext : DbContext
     {
-        public DbSet<Loai> Loai { get; set; }
+
+        public DbSet<Loai> tblLoai { get; set; }
         public DbSet<KhoiLuong> KhoiLuong { get; set; }
         public DbSet<HangSX> HangSX { get; set; }
         public DbSet<ChatLieu> ChatLieu { get; set; }
@@ -21,16 +23,26 @@ namespace beauty_shop.Model
         public DbSet<HoaDonNhap> HoaDonNhap { get; set; }
         public DbSet<ChiTietHDN> ChiTietHDN { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public BeautyShopContext(DbContextOptions<BeautyShopContext> options)
+        : base(options)
         {
-            // Đổi chuỗi kết nối cho phù hợp, vd: MySQL, SQL Server...
-            var connectionString = "server=localhost;port=3306;database=QuanLyCuaHangMyPham;user=root;password=;";
-            optionsBuilder.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 31)));
         }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                var connectionString = "server=localhost;port=3306;database=shopmypham;user=root;password=";
+                optionsBuilder.UseMySql(connectionString, new MySqlServerVersion(new Version(10, 4, 32)));
+            }
+        }
+        public BeautyShopContext() : base()
+        {
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Định nghĩa khóa chính cho từng entity
+            // Primary Keys
+
             modelBuilder.Entity<Loai>().HasKey(l => l.MaLoai);
             modelBuilder.Entity<KhoiLuong>().HasKey(k => k.MaKhoiLuong);
             modelBuilder.Entity<HangSX>().HasKey(h => h.MaHangSX);
@@ -49,118 +61,110 @@ namespace beauty_shop.Model
             modelBuilder.Entity<HoaDonNhap>().HasKey(h => h.SoHDN);
             modelBuilder.Entity<ChiTietHDN>().HasKey(c => new { c.SoHDN, c.MaHang });
 
-            // Định nghĩa các khóa ngoại tương ứng
-
-            // DMHangHoa
+            // Foreign Keys
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(l => l.Loai)
+                .HasOne(d => d.Loai)
                 .WithMany()
                 .HasForeignKey(d => d.MaLoai)
                 .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(k => k.KhoiLuong)
+                .HasOne(d => d.KhoiLuong)
                 .WithMany()
                 .HasForeignKey(d => d.MaKhoiLuong)
                 .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(h => h.HangSX)
+                .HasOne(d => d.HangSX)
                 .WithMany()
                 .HasForeignKey(d => d.MaHangSX)
                 .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(c => c.ChatLieu)
+                .HasOne(d => d.ChatLieu)
                 .WithMany()
                 .HasForeignKey(d => d.MaChatLieu)
                 .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(n => n.NuocSX)
+                .HasOne(d => d.NuocSX)
                 .WithMany()
                 .HasForeignKey(d => d.MaNuocSX)
                 .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(m => m.MauSac)
+                .HasOne(d => d.MauSac)
                 .WithMany()
                 .HasForeignKey(d => d.MaMau)
                 .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(c => c.CongDung)
-                .WithMany()
-                .HasForeignKey(d => d.CongDung)
-                .OnDelete(DeleteBehavior.Restrict);
+    .HasOne(d => d.CongDung)
+    .WithMany(c => c.DMHangHoas)
+    .HasForeignKey(d => d.MaCongDung)
+    .HasConstraintName("FK_DMHangHoa_CongDung"); // tên constraint tùy chọn
+
+
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(m => m.Mua)
+                .HasOne(d => d.Mua)
                 .WithMany()
                 .HasForeignKey(d => d.MaMua)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // NhanVien - CongViec
             modelBuilder.Entity<NhanVien>()
-                .HasOne(c => c.CongViec)
+                .HasOne(n => n.CongViec)
                 .WithMany()
                 .HasForeignKey(n => n.MaCV)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // HoaDonBan - NhanVien, KhachHang
             modelBuilder.Entity<HoaDonBan>()
-                .HasOne(n => n.NhanVien)
+                .HasOne(h => h.NhanVien)
                 .WithMany()
                 .HasForeignKey(h => h.MaNV)
                 .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<HoaDonBan>()
-                .HasOne(k => k.KhachHang)
+                .HasOne(h => h.KhachHang)
                 .WithMany()
                 .HasForeignKey(h => h.MaKhach)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // ChiTietHDB - HoaDonBan, DMHangHoa
             modelBuilder.Entity<ChiTietHDB>()
-                .HasOne(h => h.HoaDonBan)
-                .WithMany(hd => hd.ChiTietHDBs)
+                .HasOne(c => c.HoaDonBan)
+                .WithMany(h => h.ChiTietHDBs)
                 .HasForeignKey(c => c.SoHDB)
                 .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<ChiTietHDB>()
-                .HasOne(d => d.DMHangHoa)
+                .HasOne(c => c.DMHangHoa)
                 .WithMany()
                 .HasForeignKey(c => c.MaHang)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // HoaDonNhap - NhanVien, NhaCungCap
             modelBuilder.Entity<HoaDonNhap>()
-                .HasOne(nv => nv.NhanVien)
+                .HasOne(h => h.NhanVien)
                 .WithMany()
                 .HasForeignKey(h => h.MaNV)
                 .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<HoaDonNhap>()
-                .HasOne(ncc => ncc.NhaCungCap)
+                .HasOne(h => h.NhaCungCap)
                 .WithMany()
                 .HasForeignKey(h => h.MaNCC)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // ChiTietHDN - HoaDonNhap, DMHangHoa
             modelBuilder.Entity<ChiTietHDN>()
-                .HasOne(h => h.HoaDonNhap)
-                .WithMany(hdn => hdn.ChiTietHDNs)
+                .HasOne(c => c.HoaDonNhap)
+                .WithMany(h => h.ChiTietHDNs)
                 .HasForeignKey(c => c.SoHDN)
                 .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<ChiTietHDN>()
-                .HasOne(d => d.DMHangHoa)
+                .HasOne(c => c.DMHangHoa)
                 .WithMany()
                 .HasForeignKey(c => c.MaHang)
                 .OnDelete(DeleteBehavior.Restrict);
-
-            // Bạn có thể thêm các thiết lập khác nếu cần (ví dụ: bảng nhiều-nhiều)
-
         }
     }
 }
