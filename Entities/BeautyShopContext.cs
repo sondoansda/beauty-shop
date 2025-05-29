@@ -32,7 +32,7 @@ namespace beauty_shop.Model
         {
             if (!optionsBuilder.IsConfigured)
             {
-                var connectionString = "server=localhost;port=3306;database=shopmypham;user=root;password=";
+                var connectionString = "server=sql3.freesqldatabase.com;port=3306;database=sql3781960;user=sql3781960;password=3deQ7zieYl;";
                 optionsBuilder.UseMySql(connectionString, new MySqlServerVersion(new Version(10, 4, 32)));
             }
         }

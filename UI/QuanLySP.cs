@@ -13,10 +13,11 @@ namespace beauty_shop.Forms
 
         public QuanLySP()
         {
+            var connectionString = "server=sql3.freesqldatabase.com;port=3306;database=sql3781960;user=sql3781960;password=3deQ7zieYl;";
             InitializeComponent();
             // Initialize DbContext and dependencies
             var optionsBuilder = new DbContextOptionsBuilder<BeautyShopContext>();
-            var connectionString = "server=localhost;port=3306;database=shopmypham;user=root;password=";
+
             optionsBuilder.UseMySql(connectionString, new MySqlServerVersion(new Version(10, 4, 32)));
             var context = new BeautyShopContext(optionsBuilder.Options);
             var dal = new SanPhamDAL(context);
