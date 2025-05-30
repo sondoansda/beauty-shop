@@ -14,6 +14,7 @@ namespace beauty_shop.Forms
             baoCaoThongKeDAL = new BaoCaoThongKeDAL();
 
         }
+        //pull lại
 
 
         private void LoadData()
