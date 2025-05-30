@@ -1,28 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Forms\TrangChu.cs">
+    <Compile Update="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\QuanLySP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\QuanLySP.cs">
+    <Compile Update="UI\Kho.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\DanhMucHeThong.cs">
+    <Compile Update="UI\NhanSu_KhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\NhanSu_KhachHang.cs">
+    <Compile Update="UI\ThongKe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\BaoCaoThongKe.cs">
+    <Compile Update="UI\HoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\HoaDon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\NhaCungCap.cs">
+    <Compile Update="UI\NhaCungCap.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
