@@ -12,7 +12,7 @@ namespace beauty_shop
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            Application.Run(new Main());
+            Application.Run(new DangNhap());
         }
     }
 }

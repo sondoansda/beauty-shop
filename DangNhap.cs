@@ -21,7 +21,10 @@ namespace beauty_shop
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Main main = new Main();
+            main.ShowDialog();
+            this.Close();
         }    
     }
 }

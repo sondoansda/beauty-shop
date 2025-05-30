@@ -224,11 +224,10 @@ namespace beauty_shop
             btnTrangChu.SizeMode = PictureBoxSizeMode.Zoom;
             btnTrangChu.TabIndex = 0;
             btnTrangChu.TabStop = false;
-            btnTrangChu.Click += btnTrangChu_Click;
             // 
             // panel2
             // 
-            panel2.BackColor = Color.White;
+            panel2.BackColor = Color.LightGray;
             panel2.Controls.Add(btnMaximum);
             panel2.Controls.Add(btnMini);
             panel2.Controls.Add(btnExit);
@@ -237,7 +236,7 @@ namespace beauty_shop
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(214, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(700, 96);
+            panel2.Size = new Size(700, 90);
             panel2.TabIndex = 1;
             panel2.MouseDown += panel2_MouseDown;
             // 
@@ -340,9 +339,9 @@ namespace beauty_shop
             panelDesktop.BackColor = Color.White;
             panelDesktop.Controls.Add(picMain);
             panelDesktop.Dock = DockStyle.Fill;
-            panelDesktop.Location = new Point(214, 96);
+            panelDesktop.Location = new Point(214, 90);
             panelDesktop.Name = "panelDesktop";
-            panelDesktop.Size = new Size(700, 411);
+            panelDesktop.Size = new Size(700, 417);
             panelDesktop.TabIndex = 3;
             // 
             // picMain
