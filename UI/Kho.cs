@@ -1,9 +1,9 @@
 ﻿namespace beauty_shop.Forms
 {
-    public partial class DanhMucHeThong : Form
+    public partial class Kho : Form
     {
 
-        public DanhMucHeThong()
+        public Kho()
         {
             InitializeComponent();
 

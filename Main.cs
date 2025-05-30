@@ -80,7 +80,7 @@ namespace beauty_shop
         {
 
             ActivateButton(sender, RGBColors.color1);
-            OpenChildForm(new DanhMucHeThong());
+            OpenChildForm(new Kho());
 
         }
 
@@ -111,7 +111,7 @@ namespace beauty_shop
         {
 
             ActivateButton(sender, RGBColors.color6);
-            OpenChildForm(new BaoCaoThongKe());
+            OpenChildForm(new ThongKe());
         }
         private void btnSP_Click(object sender, EventArgs e)
         {

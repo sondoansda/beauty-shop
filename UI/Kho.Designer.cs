@@ -1,6 +1,6 @@
 ﻿namespace beauty_shop.Forms
 {
-    partial class DanhMucHeThong
+    partial class Kho
     {
         /// <summary>
         /// Required designer variable.
@@ -32,10 +32,27 @@
             dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
-       
-
-          
-
+            // 
+            // label2
+            // 
+            label2.Location = new Point(0, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(100, 23);
+            label2.TabIndex = 0;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.Location = new Point(0, 0);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(240, 150);
+            dataGridView1.TabIndex = 0;
+            // 
+            // DanhMucHeThong
+            // 
+            ClientSize = new Size(775, 464);
+            Name = "DanhMucHeThong";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
