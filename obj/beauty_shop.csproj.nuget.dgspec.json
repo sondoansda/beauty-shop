@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\BTL\\beauty_shop.csproj": {}
+    "C:\\Net\\BTL\\beauty_shop.csproj": {}
   },
   "projects": {
-    "C:\\C#\\BTL\\beauty_shop.csproj": {
+    "C:\\Net\\BTL\\beauty_shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\BTL\\beauty_shop.csproj",
+        "projectUniqueName": "C:\\Net\\BTL\\beauty_shop.csproj",
         "projectName": "beauty_shop",
-        "projectPath": "C:\\C#\\BTL\\beauty_shop.csproj",
+        "projectPath": "C:\\Net\\BTL\\beauty_shop.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\BTL\\obj\\",
+        "outputPath": "C:\\Net\\BTL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

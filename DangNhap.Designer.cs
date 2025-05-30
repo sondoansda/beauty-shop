@@ -87,16 +87,17 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Location = new Point(334, 1);
+            pictureBox2.Image = Properties.Resources.String;
+            pictureBox2.Location = new Point(334, -3);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(465, 445);
+            pictureBox2.Size = new Size(472, 455);
             pictureBox2.TabIndex = 8;
             pictureBox2.TabStop = false;
             // 
             // DangNhap
             // 
             BackColor = Color.MintCream;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(803, 450);
             Controls.Add(pictureBox2);
             Controls.Add(chkHienMatKhau);
             Controls.Add(btnThoat);

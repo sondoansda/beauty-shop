@@ -73,9 +73,9 @@ namespace beauty_shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap mypham {
+        internal static System.Drawing.Bitmap String {
             get {
-                object obj = ResourceManager.GetObject("mypham", resourceCulture);
+                object obj = ResourceManager.GetObject("String", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
