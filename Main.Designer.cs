@@ -70,7 +70,7 @@ namespace beauty_shop
             panelMenu.Location = new Point(0, 0);
             panelMenu.Margin = new Padding(3, 4, 3, 4);
             panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(251, 730);
+            panelMenu.Size = new Size(251, 775);
             panelMenu.TabIndex = 0;
             // 
             // btnBCTK
@@ -217,7 +217,8 @@ namespace beauty_shop
             // btnTrangChu
             // 
             btnTrangChu.Dock = DockStyle.Fill;
-            btnTrangChu.Image = Properties.Resources.logo_background_changed;
+         
+
             btnTrangChu.Location = new Point(0, 0);
             btnTrangChu.Margin = new Padding(3, 4, 3, 4);
             btnTrangChu.Name = "btnTrangChu";
@@ -238,7 +239,7 @@ namespace beauty_shop
             panel2.Location = new Point(251, 0);
             panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(922, 125);
+            panel2.Size = new Size(1212, 125);
             panel2.TabIndex = 1;
             panel2.MouseDown += panel2_MouseDown;
             // 
@@ -253,7 +254,7 @@ namespace beauty_shop
             btnMaximum.IconColor = Color.Gainsboro;
             btnMaximum.IconFont = IconFont.Auto;
             btnMaximum.IconSize = 24;
-            btnMaximum.Location = new Point(864, 15);
+            btnMaximum.Location = new Point(1154, 15);
             btnMaximum.Margin = new Padding(3, 4, 3, 4);
             btnMaximum.Name = "btnMaximum";
             btnMaximum.Size = new Size(20, 25);
@@ -274,7 +275,7 @@ namespace beauty_shop
             btnMini.IconColor = Color.Gainsboro;
             btnMini.IconFont = IconFont.Auto;
             btnMini.IconSize = 24;
-            btnMini.Location = new Point(838, 15);
+            btnMini.Location = new Point(1128, 15);
             btnMini.Margin = new Padding(3, 4, 3, 4);
             btnMini.Name = "btnMini";
             btnMini.Size = new Size(20, 25);
@@ -295,7 +296,7 @@ namespace beauty_shop
             btnExit.IconColor = Color.Gainsboro;
             btnExit.IconFont = IconFont.Auto;
             btnExit.IconSize = 24;
-            btnExit.Location = new Point(890, 15);
+            btnExit.Location = new Point(1180, 15);
             btnExit.Margin = new Padding(3, 4, 3, 4);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(20, 25);
@@ -339,7 +340,7 @@ namespace beauty_shop
             panelShadow.Location = new Point(251, 125);
             panelShadow.Margin = new Padding(3, 4, 3, 4);
             panelShadow.Name = "panelShadow";
-            panelShadow.Size = new Size(922, 11);
+            panelShadow.Size = new Size(1212, 11);
             panelShadow.TabIndex = 2;
             // 
             // panel3
@@ -357,14 +358,14 @@ namespace beauty_shop
             panelDesktop.Location = new Point(251, 136);
             panelDesktop.Margin = new Padding(3, 4, 3, 4);
             panelDesktop.Name = "panelDesktop";
-            panelDesktop.Size = new Size(922, 594);
+            panelDesktop.Size = new Size(1212, 639);
             panelDesktop.TabIndex = 3;
             // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1173, 730);
+            ClientSize = new Size(1463, 775);
             Controls.Add(panelDesktop);
             Controls.Add(panelShadow);
             Controls.Add(panel2);

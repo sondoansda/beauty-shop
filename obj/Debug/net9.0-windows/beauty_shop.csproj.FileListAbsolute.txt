@@ -84,3 +84,5 @@ C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.Qua
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Main.resources
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.NhanSu_KhachHang.resources
 C:\Users\Dell\Desktop\beauty-shop\obj\Debug\net9.0-windows\beauty_shop.Forms.TrangChu.resources
+C:\Users\Dell\Desktop\beauty-shop\bin\Debug\net9.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\Dell\Desktop\beauty-shop\bin\Debug\net9.0-windows\WinForms.DataVisualization.dll

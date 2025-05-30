@@ -74,7 +74,7 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(937, 66);
+            panel1.Size = new Size(1197, 66);
             panel1.TabIndex = 0;
             // 
             // label1
@@ -95,7 +95,7 @@
             tabControl1.Location = new Point(0, 66);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(937, 502);
+            tabControl1.Size = new Size(1197, 576);
             tabControl1.TabIndex = 1;
             // 
             // tabDSSP
@@ -108,7 +108,7 @@
             tabDSSP.Location = new Point(4, 29);
             tabDSSP.Name = "tabDSSP";
             tabDSSP.Padding = new Padding(3);
-            tabDSSP.Size = new Size(929, 469);
+            tabDSSP.Size = new Size(1189, 543);
             tabDSSP.TabIndex = 0;
             tabDSSP.Text = "Danh sách sản phẩm";
             tabDSSP.UseVisualStyleBackColor = true;
@@ -132,7 +132,7 @@
             dgvHangHoa.Location = new Point(12, 86);
             dgvHangHoa.Name = "dgvHangHoa";
             dgvHangHoa.RowHeadersWidth = 51;
-            dgvHangHoa.Size = new Size(780, 259);
+            dgvHangHoa.Size = new Size(1171, 451);
             dgvHangHoa.TabIndex = 3;
             dgvHangHoa.CellContentClick += dgvHangHoa_CellContentClick;
             // 
@@ -198,7 +198,7 @@
             tabChiTietSP.Location = new Point(4, 29);
             tabChiTietSP.Name = "tabChiTietSP";
             tabChiTietSP.Padding = new Padding(3);
-            tabChiTietSP.Size = new Size(929, 469);
+            tabChiTietSP.Size = new Size(1189, 543);
             tabChiTietSP.TabIndex = 1;
             tabChiTietSP.Text = "Chi tiết sản phẩm";
             tabChiTietSP.UseVisualStyleBackColor = true;
@@ -208,7 +208,7 @@
             btnAddImage.IconChar = FontAwesome.Sharp.IconChar.None;
             btnAddImage.IconColor = Color.Black;
             btnAddImage.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnAddImage.Location = new Point(726, 118);
+            btnAddImage.Location = new Point(906, 226);
             btnAddImage.Name = "btnAddImage";
             btnAddImage.Size = new Size(94, 29);
             btnAddImage.TabIndex = 42;
@@ -239,7 +239,7 @@
             btnHuybo.IconChar = FontAwesome.Sharp.IconChar.None;
             btnHuybo.IconColor = Color.Black;
             btnHuybo.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnHuybo.Location = new Point(811, 423);
+            btnHuybo.Location = new Point(1046, 467);
             btnHuybo.Name = "btnHuybo";
             btnHuybo.Size = new Size(94, 29);
             btnHuybo.TabIndex = 38;
@@ -252,7 +252,7 @@
             btnLuu.IconChar = FontAwesome.Sharp.IconChar.None;
             btnLuu.IconColor = Color.Black;
             btnLuu.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnLuu.Location = new Point(683, 423);
+            btnLuu.Location = new Point(918, 467);
             btnLuu.Name = "btnLuu";
             btnLuu.Size = new Size(94, 29);
             btnLuu.TabIndex = 37;
@@ -262,9 +262,9 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(683, 190);
+            pictureBox1.Location = new Point(757, 53);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(222, 212);
+            pictureBox1.Size = new Size(383, 349);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 36;
             pictureBox1.TabStop = false;
@@ -456,7 +456,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(937, 568);
+            ClientSize = new Size(1197, 642);
             Controls.Add(tabControl1);
             Controls.Add(panel1);
             Name = "QuanLySP";

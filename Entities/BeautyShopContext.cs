@@ -4,7 +4,6 @@ namespace beauty_shop.Model
 {
     public class BeautyShopContext : DbContext
     {
-
         public DbSet<Loai> tblLoai { get; set; }
         public DbSet<KhoiLuong> KhoiLuong { get; set; }
         public DbSet<HangSX> HangSX { get; set; }
@@ -24,7 +23,11 @@ namespace beauty_shop.Model
         public DbSet<ChiTietHDN> ChiTietHDN { get; set; }
 
         public BeautyShopContext(DbContextOptions<BeautyShopContext> options)
-        : base(options)
+            : base(options)
+        {
+        }
+
+        public BeautyShopContext() : base()
         {
         }
 
@@ -33,16 +36,14 @@ namespace beauty_shop.Model
             if (!optionsBuilder.IsConfigured)
             {
                 var connectionString = "server=sql3.freesqldatabase.com;port=3306;database=sql3781960;user=sql3781960;password=3deQ7zieYl;";
-                optionsBuilder.UseMySql(connectionString, new MySqlServerVersion(new Version(10, 4, 32)));
+                optionsBuilder.UseMySql(connectionString, new MySqlServerVersion(new Version(10, 4, 32)))
+                    .EnableSensitiveDataLogging()
+                    .EnableDetailedErrors();
             }
-        }
-        public BeautyShopContext() : base()
-        {
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Primary Keys
-
             modelBuilder.Entity<Loai>().HasKey(l => l.MaLoai);
             modelBuilder.Entity<KhoiLuong>().HasKey(k => k.MaKhoiLuong);
             modelBuilder.Entity<HangSX>().HasKey(h => h.MaHangSX);
@@ -99,12 +100,10 @@ namespace beauty_shop.Model
                 .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<DMHangHoa>()
-    .HasOne(d => d.CongDung)
-    .WithMany(c => c.DMHangHoas)
-    .HasForeignKey(d => d.MaCongDung)
-    .HasConstraintName("FK_DMHangHoa_CongDung"); // tên constraint tùy chọn
-
-
+                .HasOne(d => d.CongDung)
+                .WithMany(c => c.DMHangHoas)
+                .HasForeignKey(d => d.MaCongDung)
+                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<DMHangHoa>()
                 .HasOne(d => d.Mua)
@@ -167,4 +166,7 @@ namespace beauty_shop.Model
                 .OnDelete(DeleteBehavior.Restrict);
         }
     }
+
+    // Placeholder entity classes (ensure these match your database schema)
+
 }
