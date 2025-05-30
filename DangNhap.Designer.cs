@@ -86,6 +86,7 @@
             chkHienMatKhau.TabIndex = 6;
             chkHienMatKhau.Text = "Hiện mật khẩu";
             chkHienMatKhau.UseVisualStyleBackColor = true;
+            chkHienMatKhau.CheckedChanged += chkHienMatKhau_CheckedChanged;
             // 
             // pictureBox2
             // 

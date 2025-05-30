@@ -12,7 +12,6 @@ namespace beauty_shop.BLL
             _dal = dal;
         }
 
-
         public List<SanPhamDTO> GetAllSanPham()
         {
             try
@@ -21,10 +20,10 @@ namespace beauty_shop.BLL
             }
             catch (Exception ex)
             {
-                throw new Exception("Business layer error: " + ex.Message);
+                throw new Exception("Business layer error: " + ex.Message, ex);
             }
-
         }
+
         public void SaveOrUpdateSanPham(SanPhamDTO product, string imagePath)
         {
             try
@@ -37,8 +36,16 @@ namespace beauty_shop.BLL
             }
         }
 
-
-
-
+        public void DeleteSanPham(string maHang)
+        {
+            try
+            {
+                _dal.DeleteSanPham(maHang);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Business layer error: " + ex.Message, ex);
+            }
+        }
     }
 }

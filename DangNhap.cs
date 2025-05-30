@@ -41,7 +41,7 @@ namespace beauty_shop
 
                     if (nhanVien != null)
                     {
-                        MessageBox.Show($"Đăng nhập thành công! Xin chào {nhanVien.TenNV}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show($"Đăng nhập thành công! Xin chào {nhanVien.Tennhanvien}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         this.Hide();
                         Main mainForm = new Main(); // hoặc frmMain nếu tên form bạn là vậy
                         mainForm.ShowDialog();
@@ -59,14 +59,14 @@ namespace beauty_shop
             }
         }
 
-        private void chkHienMatKhau_CheckedChanged(object sender, EventArgs e)
-        {
-            txtMatKhau.UseSystemPasswordChar = !chkHienMatKhau.Checked;
-        }
-
         private void btnThoat_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void chkHienMatKhau_CheckedChanged(object sender, EventArgs e)
+        {
+            txtMatKhau.UseSystemPasswordChar = !chkHienMatKhau.Checked;
         }
     }
 }

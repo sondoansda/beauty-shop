@@ -60,6 +60,7 @@
             label7 = new Label();
             txtMaSP = new TextBox();
             lbMaSP = new Label();
+            btnXoa = new Button();
             panel1.SuspendLayout();
             tabControl1.SuspendLayout();
             tabDSSP.SuspendLayout();
@@ -102,6 +103,7 @@
             // 
             // tabDSSP
             // 
+            tabDSSP.Controls.Add(btnXoa);
             tabDSSP.Controls.Add(btnThem);
             tabDSSP.Controls.Add(dgvHangHoa);
             tabDSSP.Controls.Add(btnHuy);
@@ -121,8 +123,7 @@
             btnThem.IconChar = FontAwesome.Sharp.IconChar.None;
             btnThem.IconColor = Color.Black;
             btnThem.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnThem.Location = new Point(467, 30);
-            btnThem.Margin = new Padding(3, 2, 3, 2);
+            btnThem.Location = new Point(534, 40);
             btnThem.Name = "btnThem";
             btnThem.Size = new Size(82, 22);
             btnThem.TabIndex = 6;
@@ -146,8 +147,7 @@
             btnHuy.IconChar = FontAwesome.Sharp.IconChar.None;
             btnHuy.IconColor = Color.Black;
             btnHuy.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnHuy.Location = new Point(576, 32);
-            btnHuy.Margin = new Padding(3, 2, 3, 2);
+            btnHuy.Location = new Point(658, 42);
             btnHuy.Name = "btnHuy";
             btnHuy.Size = new Size(82, 22);
             btnHuy.TabIndex = 2;
@@ -476,6 +476,16 @@
             lbMaSP.TabIndex = 0;
             lbMaSP.Text = "Mã sản phẩm";
             // 
+            // btnXoa
+            // 
+            btnXoa.Location = new Point(733, 42);
+            btnXoa.Name = "btnXoa";
+            btnXoa.Size = new Size(94, 29);
+            btnXoa.TabIndex = 7;
+            btnXoa.Text = "Xóa";
+            btnXoa.UseVisualStyleBackColor = true;
+            btnXoa.Click += btnXoa_Click;
+            // 
             // QuanLySP
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -539,5 +549,6 @@
     
         private Label txtGhichu;
         private FontAwesome.Sharp.IconButton btnAddImage;
+        private Button btnXoa;
     }
 }

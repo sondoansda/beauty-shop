@@ -1,22 +1,42 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace beauty_shop.Model
 {
     [Table("tblnhanvien")]
     public class NhanVien
     {
-        public string MaNV { get; set; }
-        public string? TenNV { get; set; }
-        public string? GioiTinh { get; set; }
-        public string? SDT { get; set; }
-        public DateTime NgaySinh { get; set; }
-        public string? DiaChi { get; set; }
-        public string? MaCV { get; set; }
+        [Key]
+        [Column("Manhanvien")]
+        public string Manhanvien { get; set; }
+
+        [Column("Tennhanvien")]
+        public string? Tennhanvien { get; set; }
+
+        [Column("Gioitinh")]
+        public string? Gioitinh { get; set; }
+
+        [Column("Dienthoai")]
+        public string? Dienthoai { get; set; }
+
+        [Column("Ngaysinh")]
+        public DateTime Ngaysinh { get; set; }
+
+        [Column("Diachi")]
+        public string? Diachi { get; set; }
+
+        [Column("Macongviec")]
+        public string? Macongviec { get; set; }
+
+        [ForeignKey("Macongviec")]
+        public CongViec? CongViec { get; set; }
+
+        [Column("TaiKhoan")]
         public string? TaiKhoan { get; set; }
+
+        [Column("MatKhau")]
         public string? MatKhau { get; set; }
 
-        public CongViec CongViec { get; set; }
         public ICollection<HoaDonBan> HoaDonBans { get; set; }
-
     }
 }
