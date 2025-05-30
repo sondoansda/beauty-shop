@@ -170,11 +170,6 @@ namespace beauty_shop
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        private void Form1_Load(object sender, System.EventArgs e)
-        {
-
-        }
-
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -246,5 +241,9 @@ namespace beauty_shop
             base.WndProc(ref m);
         }
 
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

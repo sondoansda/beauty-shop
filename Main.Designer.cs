@@ -59,7 +59,7 @@ namespace beauty_shop
             // 
             // panelMenu
             // 
-            panelMenu.BackColor = Color.White;
+            panelMenu.BackColor = Color.Snow;
             panelMenu.Controls.Add(btnBCTK);
             panelMenu.Controls.Add(btnHD);
             panelMenu.Controls.Add(btnNCC);
@@ -75,7 +75,7 @@ namespace beauty_shop
             // 
             // btnBCTK
             // 
-            btnBCTK.BackColor = Color.White;
+            btnBCTK.BackColor = Color.Snow;
             btnBCTK.Dock = DockStyle.Top;
             btnBCTK.FlatAppearance.BorderSize = 0;
             btnBCTK.FlatStyle = FlatStyle.Flat;
@@ -97,7 +97,7 @@ namespace beauty_shop
             // 
             // btnHD
             // 
-            btnHD.BackColor = Color.White;
+            btnHD.BackColor = Color.Snow;
             btnHD.Dock = DockStyle.Top;
             btnHD.FlatAppearance.BorderSize = 0;
             btnHD.FlatStyle = FlatStyle.Flat;
@@ -118,7 +118,7 @@ namespace beauty_shop
             // 
             // btnNCC
             // 
-            btnNCC.BackColor = Color.White;
+            btnNCC.BackColor = Color.Snow;
             btnNCC.Dock = DockStyle.Top;
             btnNCC.FlatAppearance.BorderSize = 0;
             btnNCC.FlatStyle = FlatStyle.Flat;
@@ -140,7 +140,7 @@ namespace beauty_shop
             // 
             // btnUsers
             // 
-            btnUsers.BackColor = Color.White;
+            btnUsers.BackColor = Color.Snow;
             btnUsers.Dock = DockStyle.Top;
             btnUsers.FlatAppearance.BorderSize = 0;
             btnUsers.FlatStyle = FlatStyle.Flat;
@@ -162,7 +162,7 @@ namespace beauty_shop
             // 
             // btnSP
             // 
-            btnSP.BackColor = Color.White;
+            btnSP.BackColor = Color.Snow;
             btnSP.Dock = DockStyle.Top;
             btnSP.FlatAppearance.BorderSize = 0;
             btnSP.FlatStyle = FlatStyle.Flat;
@@ -184,7 +184,7 @@ namespace beauty_shop
             // 
             // btnDMHT
             // 
-            btnDMHT.BackColor = Color.White;
+            btnDMHT.BackColor = Color.Snow;
             btnDMHT.Dock = DockStyle.Top;
             btnDMHT.FlatAppearance.BorderSize = 0;
             btnDMHT.FlatStyle = FlatStyle.Flat;
@@ -215,7 +215,7 @@ namespace beauty_shop
             // 
             // btnTrangChu
             // 
-            btnTrangChu.BackColor = Color.White;
+            btnTrangChu.BackColor = Color.Snow;
             btnTrangChu.Dock = DockStyle.Fill;
             btnTrangChu.Image = Properties.Resources.logo;
             btnTrangChu.Location = new Point(0, 0);
@@ -227,7 +227,7 @@ namespace beauty_shop
             // 
             // panel2
             // 
-            panel2.BackColor = Color.LightGray;
+            panel2.BackColor = Color.Snow;
             panel2.Controls.Add(btnMaximum);
             panel2.Controls.Add(btnMini);
             panel2.Controls.Add(btnExit);
@@ -364,7 +364,7 @@ namespace beauty_shop
             Name = "Main";
             Text = "BeautyShop";
             TopMost = true;
-            Load += Form1_Load;
+            Load += Main_Load;
             panelMenu.ResumeLayout(false);
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)btnTrangChu).EndInit();
