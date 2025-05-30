@@ -12,6 +12,8 @@ namespace beauty_shop.Model
         public DateTime NgaySinh { get; set; }
         public string? DiaChi { get; set; }
         public string? MaCV { get; set; }
+        public string TaiKhoan { get; set; }
+        public string MatKhau { get; set; }
 
         public CongViec CongViec { get; set; }
         public ICollection<HoaDonBan> HoaDonBans { get; set; }
