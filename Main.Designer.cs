@@ -45,20 +45,21 @@ namespace beauty_shop
             btnExit = new IconButton();
             txtTieuDeTrang = new Label();
             iPBTrangChu = new IconPictureBox();
-            panelShadow = new Panel();
             panel3 = new Panel();
             panelDesktop = new Panel();
+            picMain = new PictureBox();
             panelMenu.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)btnTrangChu).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)iPBTrangChu).BeginInit();
-            panelShadow.SuspendLayout();
+            panelDesktop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picMain).BeginInit();
             SuspendLayout();
             // 
             // panelMenu
             // 
-            panelMenu.BackColor = Color.FromArgb(31, 30, 68);
+            panelMenu.BackColor = Color.White;
             panelMenu.Controls.Add(btnBCTK);
             panelMenu.Controls.Add(btnHD);
             panelMenu.Controls.Add(btnNCC);
@@ -69,132 +70,138 @@ namespace beauty_shop
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 0);
             panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(220, 548);
+            panelMenu.Size = new Size(214, 507);
             panelMenu.TabIndex = 0;
             // 
             // btnBCTK
             // 
+            btnBCTK.BackColor = Color.White;
             btnBCTK.Dock = DockStyle.Top;
             btnBCTK.FlatAppearance.BorderSize = 0;
             btnBCTK.FlatStyle = FlatStyle.Flat;
             btnBCTK.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnBCTK.ForeColor = Color.Gainsboro;
+            btnBCTK.ForeColor = Color.LightCoral;
             btnBCTK.IconChar = IconChar.Tools;
-            btnBCTK.IconColor = Color.Gainsboro;
+            btnBCTK.IconColor = Color.LightCoral;
             btnBCTK.IconFont = IconFont.Auto;
             btnBCTK.ImageAlign = ContentAlignment.MiddleLeft;
             btnBCTK.Location = new Point(0, 411);
             btnBCTK.Name = "btnBCTK";
-            btnBCTK.Size = new Size(220, 56);
+            btnBCTK.Size = new Size(214, 56);
             btnBCTK.TabIndex = 7;
             btnBCTK.Text = "Thống Kê";
             btnBCTK.TextAlign = ContentAlignment.MiddleLeft;
             btnBCTK.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnBCTK.UseVisualStyleBackColor = true;
+            btnBCTK.UseVisualStyleBackColor = false;
             btnBCTK.Click += btnBaoCaoThongKe_Click;
             // 
             // btnHD
             // 
+            btnHD.BackColor = Color.White;
             btnHD.Dock = DockStyle.Top;
             btnHD.FlatAppearance.BorderSize = 0;
             btnHD.FlatStyle = FlatStyle.Flat;
             btnHD.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnHD.ForeColor = Color.Gainsboro;
+            btnHD.ForeColor = Color.LightCoral;
             btnHD.IconChar = IconChar.EnvelopesBulk;
-            btnHD.IconColor = Color.Gainsboro;
+            btnHD.IconColor = Color.LightCoral;
             btnHD.IconFont = IconFont.Auto;
             btnHD.ImageAlign = ContentAlignment.MiddleLeft;
             btnHD.Location = new Point(0, 355);
             btnHD.Name = "btnHD";
-            btnHD.Size = new Size(220, 56);
+            btnHD.Size = new Size(214, 56);
             btnHD.TabIndex = 6;
             btnHD.Text = "Hóa Đơn";
             btnHD.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnHD.UseVisualStyleBackColor = true;
+            btnHD.UseVisualStyleBackColor = false;
             btnHD.Click += btnHD_Click;
             // 
             // btnNCC
             // 
+            btnNCC.BackColor = Color.White;
             btnNCC.Dock = DockStyle.Top;
             btnNCC.FlatAppearance.BorderSize = 0;
             btnNCC.FlatStyle = FlatStyle.Flat;
             btnNCC.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNCC.ForeColor = Color.Gainsboro;
+            btnNCC.ForeColor = Color.LightCoral;
             btnNCC.IconChar = IconChar.ContactBook;
-            btnNCC.IconColor = Color.Gainsboro;
+            btnNCC.IconColor = Color.LightCoral;
             btnNCC.IconFont = IconFont.Auto;
             btnNCC.ImageAlign = ContentAlignment.MiddleLeft;
             btnNCC.Location = new Point(0, 299);
             btnNCC.Name = "btnNCC";
-            btnNCC.Size = new Size(220, 56);
+            btnNCC.Size = new Size(214, 56);
             btnNCC.TabIndex = 5;
             btnNCC.Text = "Nhà Cung Cấp";
             btnNCC.TextAlign = ContentAlignment.MiddleLeft;
             btnNCC.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnNCC.UseVisualStyleBackColor = true;
+            btnNCC.UseVisualStyleBackColor = false;
             btnNCC.Click += btnNCC_Click;
             // 
             // btnUsers
             // 
+            btnUsers.BackColor = Color.White;
             btnUsers.Dock = DockStyle.Top;
             btnUsers.FlatAppearance.BorderSize = 0;
             btnUsers.FlatStyle = FlatStyle.Flat;
             btnUsers.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnUsers.ForeColor = Color.Gainsboro;
+            btnUsers.ForeColor = Color.LightCoral;
             btnUsers.IconChar = IconChar.Tag;
-            btnUsers.IconColor = Color.Gainsboro;
+            btnUsers.IconColor = Color.LightCoral;
             btnUsers.IconFont = IconFont.Auto;
             btnUsers.ImageAlign = ContentAlignment.MiddleLeft;
             btnUsers.Location = new Point(0, 243);
             btnUsers.Name = "btnUsers";
-            btnUsers.Size = new Size(220, 56);
+            btnUsers.Size = new Size(214, 56);
             btnUsers.TabIndex = 4;
             btnUsers.Text = "Nhân Viên";
             btnUsers.TextAlign = ContentAlignment.MiddleLeft;
             btnUsers.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnUsers.UseVisualStyleBackColor = true;
+            btnUsers.UseVisualStyleBackColor = false;
             btnUsers.Click += btnNhanSu_KH_Click;
             // 
             // btnSP
             // 
+            btnSP.BackColor = Color.White;
             btnSP.Dock = DockStyle.Top;
             btnSP.FlatAppearance.BorderSize = 0;
             btnSP.FlatStyle = FlatStyle.Flat;
             btnSP.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSP.ForeColor = Color.Gainsboro;
+            btnSP.ForeColor = Color.LightCoral;
             btnSP.IconChar = IconChar.CartShopping;
-            btnSP.IconColor = Color.Gainsboro;
+            btnSP.IconColor = Color.LightCoral;
             btnSP.IconFont = IconFont.Auto;
             btnSP.ImageAlign = ContentAlignment.MiddleLeft;
             btnSP.Location = new Point(0, 187);
             btnSP.Name = "btnSP";
-            btnSP.Size = new Size(220, 56);
+            btnSP.Size = new Size(214, 56);
             btnSP.TabIndex = 3;
             btnSP.Text = "Quản Lý Sản Phẩm";
             btnSP.TextAlign = ContentAlignment.MiddleLeft;
             btnSP.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnSP.UseVisualStyleBackColor = true;
+            btnSP.UseVisualStyleBackColor = false;
             btnSP.Click += btnSP_Click;
             // 
             // btnDMHT
             // 
+            btnDMHT.BackColor = Color.White;
             btnDMHT.Dock = DockStyle.Top;
             btnDMHT.FlatAppearance.BorderSize = 0;
             btnDMHT.FlatStyle = FlatStyle.Flat;
             btnDMHT.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDMHT.ForeColor = Color.Gainsboro;
+            btnDMHT.ForeColor = Color.LightCoral;
             btnDMHT.IconChar = IconChar.BarChart;
-            btnDMHT.IconColor = Color.Gainsboro;
+            btnDMHT.IconColor = Color.LightCoral;
             btnDMHT.IconFont = IconFont.Auto;
             btnDMHT.ImageAlign = ContentAlignment.MiddleLeft;
             btnDMHT.Location = new Point(0, 131);
             btnDMHT.Name = "btnDMHT";
-            btnDMHT.Size = new Size(220, 56);
+            btnDMHT.Size = new Size(214, 56);
             btnDMHT.TabIndex = 2;
             btnDMHT.Text = "Kho";
             btnDMHT.TextAlign = ContentAlignment.MiddleLeft;
             btnDMHT.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnDMHT.UseVisualStyleBackColor = true;
+            btnDMHT.UseVisualStyleBackColor = false;
             btnDMHT.Click += btnDMHT_Click;
             // 
             // panel1
@@ -203,32 +210,34 @@ namespace beauty_shop
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(220, 131);
+            panel1.Size = new Size(214, 131);
             panel1.TabIndex = 1;
             // 
             // btnTrangChu
             // 
+            btnTrangChu.BackColor = Color.White;
             btnTrangChu.Dock = DockStyle.Fill;
-            btnTrangChu.Image = Properties.Resources.logo_background_changed;
+            btnTrangChu.Image = Properties.Resources.logo;
             btnTrangChu.Location = new Point(0, 0);
             btnTrangChu.Name = "btnTrangChu";
-            btnTrangChu.Size = new Size(220, 131);
+            btnTrangChu.Size = new Size(214, 131);
             btnTrangChu.SizeMode = PictureBoxSizeMode.Zoom;
             btnTrangChu.TabIndex = 0;
             btnTrangChu.TabStop = false;
+            btnTrangChu.Click += btnTrangChu_Click;
             // 
             // panel2
             // 
-            panel2.BackColor = Color.FromArgb(26, 25, 62);
+            panel2.BackColor = Color.White;
             panel2.Controls.Add(btnMaximum);
             panel2.Controls.Add(btnMini);
             panel2.Controls.Add(btnExit);
             panel2.Controls.Add(txtTieuDeTrang);
             panel2.Controls.Add(iPBTrangChu);
             panel2.Dock = DockStyle.Top;
-            panel2.Location = new Point(220, 0);
+            panel2.Location = new Point(214, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(806, 94);
+            panel2.Size = new Size(700, 96);
             panel2.TabIndex = 1;
             panel2.MouseDown += panel2_MouseDown;
             // 
@@ -238,12 +247,12 @@ namespace beauty_shop
             btnMaximum.FlatAppearance.BorderSize = 0;
             btnMaximum.FlatStyle = FlatStyle.Flat;
             btnMaximum.Font = new Font("Century Gothic", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnMaximum.ForeColor = Color.Gainsboro;
+            btnMaximum.ForeColor = Color.LightCoral;
             btnMaximum.IconChar = IconChar.WindowMaximize;
-            btnMaximum.IconColor = Color.Gainsboro;
+            btnMaximum.IconColor = Color.LightCoral;
             btnMaximum.IconFont = IconFont.Auto;
             btnMaximum.IconSize = 24;
-            btnMaximum.Location = new Point(755, 11);
+            btnMaximum.Location = new Point(649, 11);
             btnMaximum.Name = "btnMaximum";
             btnMaximum.Size = new Size(18, 19);
             btnMaximum.TabIndex = 5;
@@ -258,12 +267,12 @@ namespace beauty_shop
             btnMini.FlatAppearance.BorderSize = 0;
             btnMini.FlatStyle = FlatStyle.Flat;
             btnMini.Font = new Font("Century Gothic", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnMini.ForeColor = Color.Gainsboro;
+            btnMini.ForeColor = Color.LightCoral;
             btnMini.IconChar = IconChar.Subtract;
-            btnMini.IconColor = Color.Gainsboro;
+            btnMini.IconColor = Color.LightCoral;
             btnMini.IconFont = IconFont.Auto;
             btnMini.IconSize = 24;
-            btnMini.Location = new Point(732, 11);
+            btnMini.Location = new Point(626, 11);
             btnMini.Name = "btnMini";
             btnMini.Size = new Size(18, 19);
             btnMini.TabIndex = 4;
@@ -280,10 +289,10 @@ namespace beauty_shop
             btnExit.Font = new Font("Century Gothic", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnExit.ForeColor = Color.Gainsboro;
             btnExit.IconChar = IconChar.Close;
-            btnExit.IconColor = Color.Gainsboro;
+            btnExit.IconColor = Color.LightCoral;
             btnExit.IconFont = IconFont.Auto;
             btnExit.IconSize = 24;
-            btnExit.Location = new Point(778, 11);
+            btnExit.Location = new Point(672, 11);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(18, 19);
             btnExit.TabIndex = 3;
@@ -296,8 +305,9 @@ namespace beauty_shop
             // 
             txtTieuDeTrang.AutoSize = true;
             txtTieuDeTrang.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtTieuDeTrang.ForeColor = Color.Gainsboro;
-            txtTieuDeTrang.Location = new Point(40, 36);
+            txtTieuDeTrang.ForeColor = Color.LightCoral;
+            txtTieuDeTrang.ImageAlign = ContentAlignment.BottomRight;
+            txtTieuDeTrang.Location = new Point(49, 36);
             txtTieuDeTrang.Name = "txtTieuDeTrang";
             txtTieuDeTrang.Size = new Size(79, 19);
             txtTieuDeTrang.TabIndex = 1;
@@ -305,10 +315,10 @@ namespace beauty_shop
             // 
             // iPBTrangChu
             // 
-            iPBTrangChu.BackColor = Color.FromArgb(26, 25, 62);
-            iPBTrangChu.ForeColor = Color.MediumPurple;
+            iPBTrangChu.BackColor = Color.White;
+            iPBTrangChu.ForeColor = Color.LightCoral;
             iPBTrangChu.IconChar = IconChar.House;
-            iPBTrangChu.IconColor = Color.MediumPurple;
+            iPBTrangChu.IconColor = Color.LightCoral;
             iPBTrangChu.IconFont = IconFont.Auto;
             iPBTrangChu.IconSize = 28;
             iPBTrangChu.Location = new Point(15, 27);
@@ -317,16 +327,6 @@ namespace beauty_shop
             iPBTrangChu.TabIndex = 0;
             iPBTrangChu.TabStop = false;
             iPBTrangChu.Click += iPBTrangChu_Click;
-            // 
-            // panelShadow
-            // 
-            panelShadow.BackColor = Color.FromArgb(26, 24, 58);
-            panelShadow.Controls.Add(panel3);
-            panelShadow.Dock = DockStyle.Top;
-            panelShadow.Location = new Point(220, 94);
-            panelShadow.Name = "panelShadow";
-            panelShadow.Size = new Size(806, 8);
-            panelShadow.TabIndex = 2;
             // 
             // panel3
             // 
@@ -337,20 +337,29 @@ namespace beauty_shop
             // 
             // panelDesktop
             // 
-            panelDesktop.BackColor = Color.FromArgb(34, 33, 74);
+            panelDesktop.BackColor = Color.White;
+            panelDesktop.Controls.Add(picMain);
             panelDesktop.Dock = DockStyle.Fill;
-            panelDesktop.Location = new Point(220, 102);
+            panelDesktop.Location = new Point(214, 96);
             panelDesktop.Name = "panelDesktop";
-            panelDesktop.Size = new Size(806, 446);
+            panelDesktop.Size = new Size(700, 411);
             panelDesktop.TabIndex = 3;
+            // 
+            // picMain
+            // 
+            picMain.Image = Properties.Resources.String;
+            picMain.Location = new Point(0, 0);
+            picMain.Name = "picMain";
+            picMain.Size = new Size(700, 424);
+            picMain.TabIndex = 0;
+            picMain.TabStop = false;
             // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1026, 548);
+            ClientSize = new Size(914, 507);
             Controls.Add(panelDesktop);
-            Controls.Add(panelShadow);
             Controls.Add(panel2);
             Controls.Add(panelMenu);
             Name = "Main";
@@ -363,7 +372,8 @@ namespace beauty_shop
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)iPBTrangChu).EndInit();
-            panelShadow.ResumeLayout(false);
+            panelDesktop.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picMain).EndInit();
             ResumeLayout(false);
         }
 
@@ -387,6 +397,7 @@ namespace beauty_shop
         private FontAwesome.Sharp.IconButton btnExit;
         private FontAwesome.Sharp.IconButton btnMaximum;
         private FontAwesome.Sharp.IconButton btnMini;
+        private PictureBox picMain;
     }
 }
 

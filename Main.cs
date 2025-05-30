@@ -246,6 +246,9 @@ namespace beauty_shop
             base.WndProc(ref m);
         }
 
+        private void btnTrangChu_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
