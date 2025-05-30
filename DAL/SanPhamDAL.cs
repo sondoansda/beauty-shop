@@ -1,5 +1,4 @@
-﻿
-using beauty_shop.Model;
+﻿using beauty_shop.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace beauty_shop.DAL
@@ -24,7 +23,7 @@ namespace beauty_shop.DAL
                     .Include(d => d.ChatLieu)
                     .Include(d => d.HangSX)
                     .Include(d => d.Mua)
-                    .Include(d => d.NuocSX) // Added to avoid null reference in ConvertSanPhamDTO
+                    .Include(d => d.NuocSX)
                     .Select(d => d.ConvertSanPhamDTO())
                     .ToList();
             }
@@ -108,6 +107,40 @@ namespace beauty_shop.DAL
             catch (Exception ex)
             {
                 throw new Exception("Error saving product: " + ex.Message, ex);
+            }
+        }
+
+        public void DeleteSanPham(string maHang)
+        {
+            try
+            {
+                // Find the product to delete
+                var product = _context.DMHangHoa
+                    .FirstOrDefault(p => p.MaHang == maHang);
+
+                if (product == null)
+                {
+                    throw new Exception($"Sản phẩm với mã '{maHang}' không tồn tại trong cơ sở dữ liệu!");
+                }
+
+                // Remove the product (cascading deletes handle ChiTietHDB and ChiTietHDN)
+                _context.DMHangHoa.Remove(product);
+
+                // Save changes to the database
+                int rowsAffected = _context.SaveChanges();
+
+                if (rowsAffected == 0)
+                {
+                    throw new Exception("Không có bản ghi nào được xóa. Vui lòng kiểm tra lại!");
+                }
+            }
+            catch (DbUpdateException ex)
+            {
+                throw new Exception($"Lỗi cơ sở dữ liệu khi xóa sản phẩm: {ex.InnerException?.Message ?? ex.Message}", ex);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Lỗi khi xóa sản phẩm: {ex.Message}", ex);
             }
         }
     }

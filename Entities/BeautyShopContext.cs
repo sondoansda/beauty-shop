@@ -32,7 +32,8 @@ namespace beauty_shop.Model
         {
             if (!optionsBuilder.IsConfigured)
             {
-                var connectionString = "server=localhost;port=3306;database=shopmypham;user=root;password=";
+                var connectionString = "server=sql3.freesqldatabase.com;port=3306;database=sql3781960;user=sql3781960;password=3deQ7zieYl;";
+                //var connectionString = "server=localhost;port=3306;database=shopmypham;user=root;password=";
                 optionsBuilder.UseMySql(connectionString, new MySqlServerVersion(new Version(10, 4, 32)));
             }
         }
@@ -66,37 +67,37 @@ namespace beauty_shop.Model
                 .HasOne(d => d.Loai)
                 .WithMany()
                 .HasForeignKey(d => d.MaLoai)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<DMHangHoa>()
                 .HasOne(d => d.KhoiLuong)
                 .WithMany()
                 .HasForeignKey(d => d.MaKhoiLuong)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<DMHangHoa>()
                 .HasOne(d => d.HangSX)
                 .WithMany()
                 .HasForeignKey(d => d.MaHangSX)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<DMHangHoa>()
                 .HasOne(d => d.ChatLieu)
                 .WithMany()
                 .HasForeignKey(d => d.MaChatLieu)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<DMHangHoa>()
                 .HasOne(d => d.NuocSX)
                 .WithMany()
                 .HasForeignKey(d => d.MaNuocSX)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<DMHangHoa>()
                 .HasOne(d => d.MauSac)
                 .WithMany()
                 .HasForeignKey(d => d.MaMau)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<DMHangHoa>()
     .HasOne(d => d.CongDung)
@@ -110,37 +111,37 @@ namespace beauty_shop.Model
                 .HasOne(d => d.Mua)
                 .WithMany()
                 .HasForeignKey(d => d.MaMua)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<NhanVien>()
                 .HasOne(n => n.CongViec)
                 .WithMany()
                 .HasForeignKey(n => n.MaCV)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<HoaDonBan>()
                 .HasOne(h => h.NhanVien)
                 .WithMany()
                 .HasForeignKey(h => h.MaNV)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<HoaDonBan>()
                 .HasOne(h => h.KhachHang)
                 .WithMany()
                 .HasForeignKey(h => h.MaKhach)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<ChiTietHDB>()
                 .HasOne(c => c.HoaDonBan)
                 .WithMany(h => h.ChiTietHDBs)
                 .HasForeignKey(c => c.SoHDB)
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<ChiTietHDB>()
                 .HasOne(c => c.DMHangHoa)
                 .WithMany()
                 .HasForeignKey(c => c.MaHang)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<HoaDonNhap>()
                 .HasOne(h => h.NhanVien)

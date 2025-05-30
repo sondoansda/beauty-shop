@@ -1,9 +1,8 @@
-﻿//using System.Windows.Controls;
-
-using beauty_shop.BLL;
+﻿using beauty_shop.BLL;
 using beauty_shop.DAL;
 using beauty_shop.Model;
 using Microsoft.EntityFrameworkCore;
+
 namespace beauty_shop.Forms
 {
     public partial class QuanLySP : Form
@@ -16,7 +15,7 @@ namespace beauty_shop.Forms
             InitializeComponent();
             // Initialize DbContext and dependencies
             var optionsBuilder = new DbContextOptionsBuilder<BeautyShopContext>();
-            var connectionString = "server=localhost;port=3306;database=shopmypham;user=root;password=";
+            var connectionString = "server=sql3.freesqldatabase.com;port=3306;database=sql3781960;user=sql3781960;password=3deQ7zieYl;";
             optionsBuilder.UseMySql(connectionString, new MySqlServerVersion(new Version(10, 4, 32)));
             var context = new BeautyShopContext(optionsBuilder.Options);
             var dal = new SanPhamDAL(context);
@@ -169,7 +168,7 @@ namespace beauty_shop.Forms
         {
             try
             {
-                MessageBox.Show("Opening file dialog..."); // Debug message
+                MessageBox.Show("Opening file dialog...");
                 OpenFileDialog openFileDialog = new OpenFileDialog
                 {
                     Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp",
@@ -238,7 +237,6 @@ namespace beauty_shop.Forms
                     ThoiGianBaoHanh = int.Parse(txtThoiGianBaoHanh.Text)
                 };
 
-
                 _bll.SaveOrUpdateSanPham(product, savedImagePath);
 
                 MessageBox.Show("Lưu sản phẩm thành công!", "Thành công",
@@ -265,7 +263,6 @@ namespace beauty_shop.Forms
         {
             LoadHangHoa();
         }
-
 
         private void LoadHangHoa(string searchTerm = null)
         {
@@ -295,6 +292,7 @@ namespace beauty_shop.Forms
                     "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         private void ClearInputs()
         {
             txtMaSP.Clear();
@@ -308,7 +306,7 @@ namespace beauty_shop.Forms
             txtMua.Clear();
             txtSoLuong.Clear();
             txtGiaNhap.Clear();
-            ;
+
             txtThoiGianBaoHanh.Clear();
             pictureBox1.Image = null;
             btnAddImage.Visible = true;
@@ -329,7 +327,51 @@ namespace beauty_shop.Forms
 
         private void txtTimKiem_TextChanged(object sender, EventArgs e)
         {
+            LoadHangHoa(txtTimKiem.Text);
+        }
 
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (dgvHangHoa.SelectedRows.Count == 0)
+                {
+                    MessageBox.Show("Vui lòng chọn một sản phẩm để xóa!", "Thông báo",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                var selectedProduct = dgvHangHoa.SelectedRows[0].DataBoundItem as SanPhamDTO;
+                if (selectedProduct == null)
+                {
+                    MessageBox.Show("Không thể xác định sản phẩm được chọn!", "Lỗi",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                var result = MessageBox.Show(
+                    $"Bạn có chắc muốn xóa sản phẩm '{selectedProduct.TenHangHoa}' (Mã: {selectedProduct.MaHang})?",
+                    "Xác nhận xóa",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    _bll.DeleteSanPham(selectedProduct.MaHang);
+                    MessageBox.Show("Xóa sản phẩm thành công!", "Thành công",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    // Refresh the grid and clear inputs
+                    LoadHangHoa();
+                    ClearInputs();
+                    tabControl1.SelectedTab = tabDSSP;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi xóa sản phẩm: {ex.Message}\nInner Exception: {ex.InnerException?.Message}",
+                    "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
