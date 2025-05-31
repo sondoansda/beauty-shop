@@ -7,14 +7,20 @@ namespace beauty_shop.Model
 
     {
         public string SoHDB { get; set; }
-        public string MaNV { get; set; }
+        public string Manhanvien { get; set; }
         public DateTime NgayBan { get; set; }
         public string MaKhach { get; set; }
         public decimal TongTien { get; set; }
 
 
+        [ForeignKey("Manhanvien")]
         public NhanVien NhanVien { get; set; }
+
+        [ForeignKey("MaKkhach")]
         public KhachHang KhachHang { get; set; }
         public ICollection<ChiTietHDB> ChiTietHDBs { get; set; }
+
+
     }
+
 }
