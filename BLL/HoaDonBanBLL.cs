@@ -26,7 +26,11 @@ namespace beauty_shop.BLL
             }
             return _hoaDonBanDAL.TimKhachHangTheoTen(tenKhach);
         }
-
+        public string TaoSoHDB()
+        {
+            int count = _hoaDonBanDAL.LaySoLuongHoaDon();
+            return $"HDB{count + 1}";
+        }
         public DMHangHoa TimHangHoaTheoMa(string maHang)
         {
             if (string.IsNullOrWhiteSpace(maHang))
@@ -35,7 +39,6 @@ namespace beauty_shop.BLL
             }
             return _hoaDonBanDAL.TimHangHoaTheoMa(maHang);
         }
-
         public List<HoaDonBanDTO> LayDanhSachHoaDon()
         {
             return _hoaDonBanDAL.LayDanhSachHoaDon();
@@ -80,7 +83,7 @@ namespace beauty_shop.BLL
             }
 
             // Validate employee
-            var nhanVien = _hoaDonBanDAL.LayDanhSachNhanVien().FirstOrDefault(nv => nv.Tennhanvien == hoaDonDTO.TenNV);
+            var nhanVien = _hoaDonBanDAL.TimNhanVienTheoTen(hoaDonDTO.TenNV);
             if (nhanVien == null)
             {
                 errorMessage = "Nhân viên không hợp lệ.";
@@ -128,7 +131,7 @@ namespace beauty_shop.BLL
             var hoaDon = new HoaDonBan
             {
                 SoHDB = hoaDonDTO.SoHDB,
-                Manhanvien = hoaDonDTO.TenNV,
+                Manhanvien = nhanVien.Manhanvien,
                 MaKhach = khachHang.MaKhach,
                 NgayBan = hoaDonDTO.NgayBan,
                 TongTien = chiTietHDBs.Sum(ct => ct.ThanhTien)
@@ -145,29 +148,24 @@ namespace beauty_shop.BLL
             }).ToList();
 
             // Save invoice and update inventory in a transaction
-            try
-            {
-                // Save invoice
-                if (!_hoaDonBanDAL.LuuHoaDon(hoaDon, chiTietHDBsModel, out errorMessage))
-                {
-                    return false;
-                }
 
-                // Update inventory
-                foreach (var chiTiet in chiTietHDBs)
-                {
-                    _hoaDonBanDAL.CapNhatTonKho(chiTiet.MaHang, chiTiet.SoLuong);
-                }
-
-                errorMessage = null;
-                return true;
-            }
-            catch (Exception ex)
+            // Save invoice
+            if (!_hoaDonBanDAL.LuuHoaDon(hoaDon, chiTietHDBsModel, out errorMessage))
             {
-                errorMessage = $"Lỗi khi lưu hóa đơn: {ex.Message}";
                 return false;
             }
+
+            // Update inventory
+            foreach (var chiTiet in chiTietHDBs)
+            {
+                _hoaDonBanDAL.CapNhatTonKho(chiTiet.MaHang, chiTiet.SoLuong);
+            }
+
+            errorMessage = null;
+            return true;
         }
+
+
 
         private bool ValidateChiTietHDB(ChiTietHDBDTO chiTiet, out string errorMessage)
         {

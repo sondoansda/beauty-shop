@@ -71,6 +71,7 @@ namespace beauty_shop.DAL
                         MaMua = _context.Mua.FirstOrDefault(m => m.TenMua == product.Mua).MaMua,
                         MaNuocSX = _context.NuocSX.FirstOrDefault(n => n.TenNUocSX == product.XuatXu).MaNuocSX,
                         SoLuong = product.SoLuong,
+                        MaKhoiLuong = "",
                         DonGiaNhap = product.Gianhap,
                         DonGiaBan = product.Giaban,
                         Anh = imagePath,

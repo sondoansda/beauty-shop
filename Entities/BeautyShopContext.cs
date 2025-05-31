@@ -68,75 +68,77 @@ namespace beauty_shop.Model
             modelBuilder.Entity<ChiTietHDB>().HasKey(e => new { e.SoHDB, e.MaHang });
             modelBuilder.Entity<ChiTietHDN>().HasKey(e => new { e.SoHDN, e.MaHang });
 
-            // --- Relationships ---
+            // --- DMHangHoa Relationships ---
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(d => d.Loai)
+                .HasOne(h => h.Loai)
                 .WithMany()
-                .HasForeignKey(d => d.MaLoai)
+                .HasForeignKey(h => h.MaLoai)
                 .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(d => d.KhoiLuong)
+                .HasOne(h => h.KhoiLuong)
                 .WithMany()
-                .HasForeignKey(d => d.MaKhoiLuong)
+                .HasForeignKey(h => h.MaKhoiLuong)
                 .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(d => d.HangSX)
+                .HasOne(h => h.HangSX)
                 .WithMany()
-                .HasForeignKey(d => d.MaHangSX)
+                .HasForeignKey(h => h.MaHangSX)
                 .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(d => d.ChatLieu)
+                .HasOne(h => h.ChatLieu)
                 .WithMany()
-                .HasForeignKey(d => d.MaChatLieu)
+                .HasForeignKey(h => h.MaChatLieu)
                 .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(d => d.NuocSX)
+                .HasOne(h => h.NuocSX)
                 .WithMany()
-                .HasForeignKey(d => d.MaNuocSX)
+                .HasForeignKey(h => h.MaNuocSX)
                 .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(d => d.MauSac)
+                .HasOne(h => h.MauSac)
                 .WithMany()
-                .HasForeignKey(d => d.MaMau)
+                .HasForeignKey(h => h.MaMau)
                 .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(d => d.CongDung)
+                .HasOne(h => h.CongDung)
                 .WithMany(c => c.DMHangHoas)
-                .HasForeignKey(d => d.MaCongDung);
-
-
+                .HasForeignKey(h => h.MaCongDung);
 
             modelBuilder.Entity<DMHangHoa>()
-                .HasOne(d => d.Mua)
+                .HasOne(h => h.Mua)
                 .WithMany()
-                .HasForeignKey(d => d.MaMua)
+                .HasForeignKey(h => h.MaMua)
                 .OnDelete(DeleteBehavior.SetNull);
 
+            // --- NhanVien Relationships ---
             modelBuilder.Entity<NhanVien>()
                 .HasOne(nv => nv.CongViec)
                 .WithMany(cv => cv.NhanViens)
                 .HasForeignKey(nv => nv.Macongviec)
                 .OnDelete(DeleteBehavior.SetNull);
 
+            // --- HoaDonBan Relationships ---
             modelBuilder.Entity<HoaDonBan>()
                 .HasOne(h => h.NhanVien)
-                .WithMany()
+                .WithMany(nv => nv.HoaDonBans)
                 .HasForeignKey(h => h.Manhanvien)
-                .OnDelete(DeleteBehavior.SetNull);
+                .OnDelete(DeleteBehavior.SetNull)
+                .HasConstraintName("FK_HoaDonBan_NhanVien");
 
             modelBuilder.Entity<HoaDonBan>()
-            .HasOne(h => h.KhachHang)
-              .WithMany()
-              .HasForeignKey(h => h.MaKhach)
-                  .OnDelete(DeleteBehavior.SetNull);
+                .HasOne(h => h.KhachHang)
+                .WithMany(k => k.HoaDonBans)
+                .HasForeignKey(h => h.MaKhach)
+                .OnDelete(DeleteBehavior.SetNull)
+                .HasConstraintName("FK_HoaDonBan_KhachHang");
 
-
+            // --- ChiTietHDB Relationships ---
             modelBuilder.Entity<ChiTietHDB>()
                 .HasOne(c => c.HoaDonBan)
                 .WithMany(h => h.ChiTietHDBs)
@@ -149,11 +151,12 @@ namespace beauty_shop.Model
                 .HasForeignKey(c => c.MaHang)
                 .OnDelete(DeleteBehavior.SetNull);
 
+            // --- HoaDonNhap Relationships ---
             modelBuilder.Entity<HoaDonNhap>()
                 .HasOne(h => h.NhanVien)
                 .WithMany()
                 .HasForeignKey(h => h.MaNV)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<HoaDonNhap>()
                 .HasOne(h => h.NhaCungCap)
@@ -161,6 +164,7 @@ namespace beauty_shop.Model
                 .HasForeignKey(h => h.MaNCC)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            // --- ChiTietHDN Relationships ---
             modelBuilder.Entity<ChiTietHDN>()
                 .HasOne(c => c.HoaDonNhap)
                 .WithMany(h => h.ChiTietHDNs)
@@ -171,7 +175,7 @@ namespace beauty_shop.Model
                 .HasOne(c => c.DMHangHoa)
                 .WithMany()
                 .HasForeignKey(c => c.MaHang)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace beauty_shop.Model
         [ForeignKey("Manhanvien")]
         public NhanVien NhanVien { get; set; }
 
-        [ForeignKey("MaKkhach")]
+        [ForeignKey("MaKhach")]
         public KhachHang KhachHang { get; set; }
         public ICollection<ChiTietHDB> ChiTietHDBs { get; set; }
 

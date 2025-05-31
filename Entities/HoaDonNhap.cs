@@ -1,8 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace beauty_shop.Model
+﻿namespace beauty_shop.Model
 {
-    [Table("tblhoadonnhap")]
+
     public class HoaDonNhap
     {
         public string SoHDN { get; set; }

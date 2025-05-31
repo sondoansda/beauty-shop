@@ -67,28 +67,35 @@ namespace beauty_shop.Model
         [Column("Thoigianbaohanh")]
         public int? ThoiGianBaoHanh { get; set; }
 
-        [ForeignKey("MaLoai")]
+
+
         public Loai? Loai { get; set; }
 
-        [ForeignKey("MaKhoiLuong")]
+
+
         public KhoiLuong? KhoiLuong { get; set; }
 
-        [ForeignKey("MaHangSX")]
+
+
         public HangSX? HangSX { get; set; }
 
-        [ForeignKey("MaChatLieu")]
+
+
         public ChatLieu? ChatLieu { get; set; }
 
-        [ForeignKey("MaNuocSX")]
+
+
         public NuocSX? NuocSX { get; set; }
 
-        [ForeignKey("MaMau")]
+
         public MauSac? MauSac { get; set; }
 
-        [ForeignKey("MaCongDung")]
+
+
         public CongDung? CongDung { get; set; }
 
-        [ForeignKey("MaMua")]
+
+
         public Mua? Mua { get; set; }
 
         public ICollection<ChiTietHDB> ChiTietHDBs { get; set; } = new List<ChiTietHDB>();

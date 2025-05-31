@@ -20,14 +20,40 @@ namespace beauty_shop.DAL
 
         public KhachHang TimKhachHangTheoTen(string tenKhach)
         {
-            return _context.KhachHang
-                .FirstOrDefault(kh => kh.TenKhach.ToLower().Contains(tenKhach.ToLower()));
+            try
+            {
+
+                var khachHang = _context.KhachHang
+                    .FirstOrDefault(kh => EF.Functions.Like(kh.TenKhach, $"%{tenKhach}%"));
+
+                return khachHang;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error in TimKhachHangTheoTen: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                throw;
+            }
+        }
+        public NhanVien TimNhanVienTheoTen(string tenNhanvien)
+        {
+            try
+            {
+
+                var nhanvien = _context.NhanVien
+                    .FirstOrDefault(kh => EF.Functions.Like(kh.Tennhanvien, $"%{tenNhanvien}%"));
+
+                return nhanvien;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error in NhanvienTheoTen: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                throw;
+            }
         }
 
         public DMHangHoa TimHangHoaTheoMa(string maHang)
         {
-            return _context.DMHangHoa
-                .FirstOrDefault(hh => hh.MaHang == maHang);
+            return _context.DMHangHoa.FirstOrDefault(h => h.MaHang == maHang);
         }
 
         public List<HoaDonBanDTO> LayDanhSachHoaDon()
@@ -55,27 +81,31 @@ namespace beauty_shop.DAL
                 _context.HoaDonBan.Add(hoaDon);
                 _context.ChiTietHDB.AddRange(chiTietHDBs);
                 _context.SaveChanges();
+
                 errorMessage = null;
                 return true;
             }
-            catch (Exception ex)
+            catch (DbUpdateException ex)
             {
-                errorMessage = $"Lỗi khi lưu hóa đơn: {ex.Message}";
+                errorMessage = $"Database error: {ex.InnerException?.Message ?? ex.Message}";
                 return false;
             }
         }
-
+        public int LaySoLuongHoaDon()
+        {
+            return _context.HoaDonBan.Count();
+        }
         public bool KiemTraTonKho(string maHang, float soLuong, out string errorMessage)
         {
-            var hangHoa = _context.DMHangHoa.Find(maHang);
+            var hangHoa = _context.DMHangHoa.FirstOrDefault(h => h.MaHang == maHang);
             if (hangHoa == null)
             {
-                errorMessage = "Hàng hóa không tồn tại.";
+                errorMessage = $"Hàng hóa {maHang} không tồn tại.";
                 return false;
             }
             if (hangHoa.SoLuong < soLuong)
             {
-                errorMessage = $"Số lượng tồn kho không đủ. Còn lại: {hangHoa.SoLuong}";
+                errorMessage = $"Số lượng tồn kho của {maHang} không đủ. Tồn kho hiện tại: {hangHoa.SoLuong}";
                 return false;
             }
             errorMessage = null;

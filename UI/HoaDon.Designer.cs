@@ -1,4 +1,5 @@
 ﻿
+
 namespace beauty_shop
 {
     partial class HoaDon
@@ -55,12 +56,13 @@ namespace beauty_shop
             txtTenKhach.Name = "txtTenKhach";
             txtTenKhach.Size = new Size(200, 27);
             txtTenKhach.TabIndex = 1;
+            txtTenKhach.TextChanged += txtTenKhach_TextChanged_1;
             // 
             // lblMaKhach
             // 
             lblMaKhach.Location = new Point(350, 20);
             lblMaKhach.Name = "lblMaKhach";
-            lblMaKhach.Size = new Size(100, 20);
+            lblMaKhach.Size = new Size(245, 27);
             lblMaKhach.TabIndex = 2;
             lblMaKhach.Text = "Mã Khách: ";
             // 
@@ -79,7 +81,6 @@ namespace beauty_shop
             cmbNhanVien.Name = "cmbNhanVien";
             cmbNhanVien.Size = new Size(200, 28);
             cmbNhanVien.TabIndex = 4;
-            //cmbNhanVien.SelectedIndexChanged += cmbNhanVien_SelectedIndexChanged;
             // 
             // lblMaHang
             // 
@@ -95,7 +96,7 @@ namespace beauty_shop
             txtMaHang.Name = "txtMaHang";
             txtMaHang.Size = new Size(100, 27);
             txtMaHang.TabIndex = 6;
-            //txtMaHang.TextChanged += txtMaHang_TextChanged;
+            txtMaHang.TextChanged += txtMaHang_TextChanged;
             // 
             // lblDonGia
             // 
@@ -147,10 +148,11 @@ namespace beauty_shop
             dgvChiTietHDB.RowHeadersWidth = 51;
             dgvChiTietHDB.Size = new Size(640, 150);
             dgvChiTietHDB.TabIndex = 12;
+            dgvChiTietHDB.CellContentClick += dgvChiTietHDB_CellContentClick;
             // 
             // btnLuuHoaDon
             // 
-            btnLuuHoaDon.Location = new Point(535, 270);
+            btnLuuHoaDon.Location = new Point(535, 269);
             btnLuuHoaDon.Name = "btnLuuHoaDon";
             btnLuuHoaDon.Size = new Size(125, 25);
             btnLuuHoaDon.TabIndex = 13;
@@ -192,6 +194,7 @@ namespace beauty_shop
             ResumeLayout(false);
             PerformLayout();
         }
+
 
     }
 }

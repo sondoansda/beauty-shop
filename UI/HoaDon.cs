@@ -55,13 +55,16 @@ namespace beauty_shop
             }
         }
 
-        private void txtTenKhach_TextChanged(object sender, EventArgs e)
+
+        private void txtTenKhach_TextChanged_1(object sender, EventArgs e)
         {
             var tenKhach = txtTenKhach.Text.Trim();
             if (!string.IsNullOrEmpty(tenKhach))
             {
                 var khachHang = _hoaDonBanBLL.TimKhachHangTheoTen(tenKhach);
-                lblMaKhach.Text = khachHang != null ? $"Mã Khách: {khachHang.MaKhach}" : "Mã Khách: Không tìm thấy";
+
+                lblMaKhach.Text = $"Mã Khách: {khachHang.MaKhach}";
+
             }
             else
             {
@@ -69,19 +72,6 @@ namespace beauty_shop
             }
         }
 
-        private void txtMaHang_TextChanged(object sender, EventArgs e)
-        {
-            var maHang = txtMaHang.Text.Trim();
-            if (!string.IsNullOrEmpty(maHang))
-            {
-                var hangHoa = _hoaDonBanBLL.TimHangHoaTheoMa(maHang);
-                txtDonGia.Text = hangHoa != null ? hangHoa.DonGiaBan.ToString("N0") : "";
-            }
-            else
-            {
-                txtDonGia.Text = "";
-            }
-        }
 
         private void btnThemHang_Click(object sender, EventArgs e)
         {
@@ -159,8 +149,7 @@ namespace beauty_shop
 
             var hoaDonDTO = new HoaDonBanDTO
             {
-                SoHDB = Guid.NewGuid().ToString().Substring(0, 10),
-                // Lưu mã nhân viên nếu cần
+                SoHDB = _hoaDonBanBLL.TaoSoHDB(), // Use the new method to generate SoHDB
                 TenNV = tenNhanVien,  // Lưu tên nhân viên hiển thị
                 TenKhach = tenKhach,
                 NgayBan = DateTime.Now,
@@ -183,6 +172,37 @@ namespace beauty_shop
         }
 
         private void cmbNhanVien_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void txtMaHang_TextChanged(object sender, EventArgs e)
+        {
+            var maHang = txtMaHang.Text.Trim();
+            if (!string.IsNullOrEmpty(maHang) && maHang.Length >= 3)
+            {
+                try
+                {
+                    var hangHoa = _hoaDonBanBLL.TimHangHoaTheoMa(maHang);
+                    if (hangHoa != null)
+                    {
+                        txtDonGia.Text = hangHoa.DonGiaBan.ToString("N0");
+                    }
+
+
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Lỗi khi tìm hàng hóa: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                txtDonGia.Text = "";
+            }
+        }
+
+        private void dgvChiTietHDB_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
