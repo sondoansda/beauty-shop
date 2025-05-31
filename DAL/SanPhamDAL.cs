@@ -41,7 +41,7 @@ namespace beauty_shop.DAL
                     .FirstOrDefault(p => p.MaHang == product.MaHang);
 
                 // Validate foreign keys
-                if (_context.tblLoai.FirstOrDefault(l => l.TenLoai == product.TenLoai) == null)
+                if (_context.Loai.FirstOrDefault(l => l.TenLoai == product.TenLoai) == null)
                     throw new Exception($"Loại '{product.TenLoai}' không tồn tại trong cơ sở dữ liệu!");
                 if (_context.CongDung.FirstOrDefault(c => c.TenCongDung == product.TenCongDung) == null)
                     throw new Exception($"Công dụng '{product.TenCongDung}' không tồn tại trong cơ sở dữ liệu!");
@@ -63,7 +63,7 @@ namespace beauty_shop.DAL
                     {
                         MaHang = product.MaHang,
                         TenHangHoa = product.TenHangHoa,
-                        MaLoai = _context.tblLoai.FirstOrDefault(l => l.TenLoai == product.TenLoai).MaLoai,
+                        MaLoai = _context.Loai.FirstOrDefault(l => l.TenLoai == product.TenLoai).MaLoai,
                         MaCongDung = _context.CongDung.FirstOrDefault(c => c.TenCongDung == product.TenCongDung).MaCongDung,
                         MaMau = _context.MauSac.FirstOrDefault(m => m.TenMau == product.MauSac).MaMau,
                         MaChatLieu = _context.ChatLieu.FirstOrDefault(c => c.TenChatLieu == product.ChatLieu).MaChatLieu,
@@ -83,7 +83,7 @@ namespace beauty_shop.DAL
                 {
                     // Update existing product
                     existingProduct.TenHangHoa = product.TenHangHoa;
-                    existingProduct.MaLoai = _context.tblLoai.FirstOrDefault(l => l.TenLoai == product.TenLoai).MaLoai;
+                    existingProduct.MaLoai = _context.Loai.FirstOrDefault(l => l.TenLoai == product.TenLoai).MaLoai;
                     existingProduct.MaCongDung = _context.CongDung.FirstOrDefault(c => c.TenCongDung == product.TenCongDung).MaCongDung;
                     existingProduct.MaMau = _context.MauSac.FirstOrDefault(m => m.TenMau == product.MauSac).MaMau;
                     existingProduct.MaChatLieu = _context.ChatLieu.FirstOrDefault(c => c.TenChatLieu == product.ChatLieu).MaChatLieu;

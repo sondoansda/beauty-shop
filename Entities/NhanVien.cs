@@ -38,5 +38,6 @@ namespace beauty_shop.Model
         public string? MatKhau { get; set; }
 
         public ICollection<HoaDonBan> HoaDonBans { get; set; }
+
     }
 }
