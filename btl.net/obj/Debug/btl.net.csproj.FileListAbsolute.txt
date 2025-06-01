@@ -1,0 +1,134 @@
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.csproj.AssemblyReference.cache
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.Trangchu.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Properties.Resources.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.csproj.GenerateResource.cache
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.csproj.CoreCompileInputs.cache
+D:\.net\btl.net\btl.net\bin\Debug\btl.net.exe.config
+D:\.net\btl.net\btl.net\bin\Debug\btl.net.exe
+D:\.net\btl.net\btl.net\bin\Debug\btl.net.pdb
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.exe
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.pdb
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.Khachhang.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.Nhanvien.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.Hoadonnhap.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.Chitiethoadonnhap.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.Chitiethoadonban.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.Hoadonban.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.Timkiemhoadonban.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.Nhacungcap.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.Timkiemhoadonnhap.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.chatlieu.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.frmBaocaohdb.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.frmBaocaohdn.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.frmHanghoa.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.Baocaodoanhthu.resources
+D:\.net\btl.net\btl.net\obj\Debug\btl.net.Forms.Login.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.csproj.AssemblyReference.cache
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.Baocaodoanhthu.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.frmBaocaohdb.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.frmBaocaohdn.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.chatlieu.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.Chitiethoadonban.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.Chitiethoadonnhap.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.frmHanghoa.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.Hoadonban.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.Hoadonnhap.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.Khachhang.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.Login.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.Nhacungcap.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.Nhanvien.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.Timkiemhoadonban.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.Timkiemhoadonnhap.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Forms.Trangchu.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.Properties.Resources.resources
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.csproj.GenerateResource.cache
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.csproj.CoreCompileInputs.cache
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.exe
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.pdb
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\bin\Debug\btl.net.exe.config
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\bin\Debug\btl.net.exe
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\bin\Debug\btl.net.pdb
+C:\Users\trant\Downloads\Nhóm 6\New folder (2)\btl.net\btl.net\obj\Debug\btl.net.csproj.ResolveComReference.cache
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\bin\Debug\btl.net.exe.config
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\bin\Debug\btl.net.exe
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\bin\Debug\btl.net.pdb
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.csproj.ResolveComReference.cache
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.Baocaodoanhthu.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.frmBaocaohdb.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.frmBaocaohdn.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.chatlieu.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.Chitiethoadonban.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.Chitiethoadonnhap.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.frmHanghoa.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.Hoadonban.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.Hoadonnhap.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.Khachhang.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.Login.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.Nhacungcap.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.Nhanvien.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.Timkiemhoadonban.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.Timkiemhoadonnhap.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Forms.Trangchu.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.Properties.Resources.resources
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.csproj.GenerateResource.cache
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.exe
+C:\Users\admin\OneDrive\Documents\c#\nhom6\nhom6\btl.net\btl.net\obj\Debug\btl.net.pdb
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\bin\Debug\btl.net.exe.config
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\bin\Debug\btl.net.exe
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\bin\Debug\btl.net.pdb
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.csproj.AssemblyReference.cache
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.csproj.ResolveComReference.cache
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.Baocaodoanhthu.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.frmBaocaohdb.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.frmBaocaohdn.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.chatlieu.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.Chitiethoadonban.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.Chitiethoadonnhap.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.frmHanghoa.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.Hoadonban.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.Hoadonnhap.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.Khachhang.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.Login.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.Nhacungcap.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.Nhanvien.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.Timkiemhoadonban.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.Timkiemhoadonnhap.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Forms.Trangchu.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.Properties.Resources.resources
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.csproj.GenerateResource.cache
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.csproj.CoreCompileInputs.cache
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.exe
+C:\Users\Z\Downloads\drive-download-20250601T070523Z-1-001\btl.net\obj\Debug\btl.net.pdb
+C:\Users\admin\Downloads\qlchmp\btl.net\bin\Debug\btl.net.exe.config
+C:\Users\admin\Downloads\qlchmp\btl.net\bin\Debug\btl.net.exe
+C:\Users\admin\Downloads\qlchmp\btl.net\bin\Debug\btl.net.pdb
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.csproj.ResolveComReference.cache
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Baocaodoanhthu.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.frmBaocaohdb.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.frmBaocaohdn.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.chatlieu.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Chitiethoadonban.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Chitiethoadonnhap.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.frmHanghoa.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Hoadonban.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Hoadonnhap.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Khachhang.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Loai.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Login.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Nhacungcap.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Nhanvien.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Timkiemhoadonban.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Timkiemhoadonnhap.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Trangchu.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Properties.Resources.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.csproj.GenerateResource.cache
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.exe
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.pdb
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Khoiluong.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Congdung.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Mau.resources
+C:\Users\admin\Downloads\qlchmp\btl.net\obj\Debug\btl.net.Forms.Mua.resources

@@ -1,0 +1,610 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Downloads\\qlchmp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\timkiemhoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\timkiemhoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\timkiemhoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\timkiemhoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\mua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\mua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\mau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\mau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\loai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\loai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\khoiluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\khoiluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\hoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\hoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\hoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\hoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\congdung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\congdung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\chitiethoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\chitiethoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\chitiethoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\chitiethoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\chatlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\chatlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\baocaohdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\baocaohdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\baocaohdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\baocaohdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\baocaodoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\baocaodoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\congdung.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\congdung.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\mau.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\mau.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\congdung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\congdung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\mau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\mau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\mua.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\mua.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\mua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\mua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\chatlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\chatlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\khoiluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\khoiluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\loai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\loai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|c:\\users\\admin\\downloads\\qlchmp\\btl.net\\forms\\chatlieu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\chatlieu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\khoiluong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\khoiluong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\loai.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\loai.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\class\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\class\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EC56B9-4F1F-4959-A4E9-A2BD7163684B}|btl.net\\btl.net.csproj|solutionrelative:btl.net\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Timkiemhoadonnhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Timkiemhoadonnhap.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Timkiemhoadonnhap.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Timkiemhoadonnhap.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Timkiemhoadonnhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:42:07.771Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Timkiemhoadonban.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Timkiemhoadonban.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Timkiemhoadonban.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Timkiemhoadonban.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Timkiemhoadonban.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:42:06.897Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Nhanvien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Nhanvien.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Nhanvien.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Nhanvien.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Nhanvien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:42:05.101Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Nhacungcap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Nhacungcap.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Nhacungcap.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Nhacungcap.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Nhacungcap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:42:04.43Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trangchu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Trangchu.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Trangchu.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Trangchu.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Trangchu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:12:23.686Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Khachhang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Khachhang.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Khachhang.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Khachhang.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Khachhang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:41:57.771Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Khoiluong.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Khoiluong.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Khoiluong.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Khoiluong.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Khoiluong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:15:16.034Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Loai.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Loai.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Loai.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Loai.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Loai.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:14:20.248Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Login.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Login.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:09:32.669Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Mau.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Mau.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Mau.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Mau.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Mau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:39:25.834Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mua.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Mua.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Mua.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Mua.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Mua.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:46:13.115Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Hoadonnhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Hoadonnhap.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Hoadonnhap.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Hoadonnhap.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Hoadonnhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:41:56.162Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Hoadonban.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Hoadonban.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Hoadonban.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Hoadonban.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Hoadonban.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:41:54.694Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Chitiethoadonnhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Chitiethoadonnhap.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Chitiethoadonnhap.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Chitiethoadonnhap.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Chitiethoadonnhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:41:50.79Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Chitiethoadonban.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Chitiethoadonban.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Chitiethoadonban.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Chitiethoadonban.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Chitiethoadonban.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:41:49.869Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Baocaohdn.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Baocaohdn.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Baocaohdn.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Baocaohdn.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Baocaohdn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:41:47.494Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Congdung.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Congdung.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Congdung.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Congdung.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Congdung.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:46:25.569Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Hanghoa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Hanghoa.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Hanghoa.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Hanghoa.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Hanghoa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:40:20.185Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Baocaohdb.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Baocaohdb.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Baocaohdb.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Baocaohdb.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Baocaohdb.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:41:46.026Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Baocaodoanhthu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Baocaodoanhthu.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Baocaodoanhthu.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Baocaodoanhthu.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\Baocaodoanhthu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:41:44.378Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "chatlieu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\chatlieu.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\chatlieu.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\chatlieu.cs [Design]",
+              "RelativeToolTip": "btl.net\\Forms\\chatlieu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:12:28.949Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Mau.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Mau.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Mau.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Mau.cs",
+              "RelativeToolTip": "btl.net\\Forms\\Mau.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAgwNgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:40:19.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Congdung.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Congdung.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Congdung.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Congdung.cs",
+              "RelativeToolTip": "btl.net\\Forms\\Congdung.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAASwL4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:47:58.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Congdung.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Congdung.Designer.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Congdung.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Congdung.Designer.cs",
+              "RelativeToolTip": "btl.net\\Forms\\Congdung.Designer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:47:23.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "chatlieu.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\chatlieu.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\chatlieu.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\chatlieu.cs",
+              "RelativeToolTip": "btl.net\\Forms\\chatlieu.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAkwKgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:17:25.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Mau.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Mau.Designer.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Mau.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Mau.Designer.cs",
+              "RelativeToolTip": "btl.net\\Forms\\Mau.Designer.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAwwAEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:40:07.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Mua.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Mua.Designer.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Mua.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Mua.Designer.cs",
+              "RelativeToolTip": "btl.net\\Forms\\Mua.Designer.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAswIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:47:39.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Trangchu.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Trangchu.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Trangchu.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Trangchu.cs",
+              "RelativeToolTip": "btl.net\\Forms\\Trangchu.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAIAwwJYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:25:07.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Mua.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Mua.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Mua.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Mua.cs",
+              "RelativeToolTip": "btl.net\\Forms\\Mua.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAADwv6YAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:52:47.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Khoiluong.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Khoiluong.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Khoiluong.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Khoiluong.cs",
+              "RelativeToolTip": "btl.net\\Forms\\Khoiluong.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAkwK8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:26:53.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Loai.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Loai.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Loai.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Loai.cs",
+              "RelativeToolTip": "btl.net\\Forms\\Loai.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAkwK8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:17:17.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "chatlieu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\chatlieu.Designer.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\chatlieu.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\chatlieu.Designer.cs",
+              "RelativeToolTip": "btl.net\\Forms\\chatlieu.Designer.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAIAwwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:15:27.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Khoiluong.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Khoiluong.Designer.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Khoiluong.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Khoiluong.Designer.cs",
+              "RelativeToolTip": "btl.net\\Forms\\Khoiluong.Designer.cs",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAqwA0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:26:43.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Loai.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Loai.Designer.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Loai.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Loai.Designer.cs",
+              "RelativeToolTip": "btl.net\\Forms\\Loai.Designer.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAqwAEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:15:41.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Functions.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Class\\Functions.cs",
+              "RelativeDocumentMoniker": "btl.net\\Class\\Functions.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Class\\Functions.cs",
+              "RelativeToolTip": "btl.net\\Class\\Functions.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAIAwwBAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:08:57.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "btl.net\\Forms\\Login.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\qlchmp\\btl.net\\Forms\\Login.cs",
+              "RelativeToolTip": "btl.net\\Forms\\Login.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:09:34.523Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
